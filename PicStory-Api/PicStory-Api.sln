@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicStory-Api", "PicStory-Api\PicStory-Api.csproj", "{D286DF98-526D-4832-85D9-8B92A8575315}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicStory", "PicStory-Api\PicStory.csproj", "{D286DF98-526D-4832-85D9-8B92A8575315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicStory.CORE", "PicStory.Core\PicStory.CORE.csproj", "{2B8CA5E1-10FB-4624-9751-15B1243FADCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicStory.DATA", "PicStroy.Data\PicStory.DATA.csproj", "{CAE63ADA-15F4-4457-A612-C0AECA6207E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicStory.SERVICE", "PicStory.Service\PicStory.SERVICE.csproj", "{26672895-435E-48DA-A512-74C031E252A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D286DF98-526D-4832-85D9-8B92A8575315}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D286DF98-526D-4832-85D9-8B92A8575315}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D286DF98-526D-4832-85D9-8B92A8575315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8CA5E1-10FB-4624-9751-15B1243FADCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8CA5E1-10FB-4624-9751-15B1243FADCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8CA5E1-10FB-4624-9751-15B1243FADCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8CA5E1-10FB-4624-9751-15B1243FADCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE63ADA-15F4-4457-A612-C0AECA6207E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE63ADA-15F4-4457-A612-C0AECA6207E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE63ADA-15F4-4457-A612-C0AECA6207E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE63ADA-15F4-4457-A612-C0AECA6207E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26672895-435E-48DA-A512-74C031E252A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26672895-435E-48DA-A512-74C031E252A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26672895-435E-48DA-A512-74C031E252A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26672895-435E-48DA-A512-74C031E252A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

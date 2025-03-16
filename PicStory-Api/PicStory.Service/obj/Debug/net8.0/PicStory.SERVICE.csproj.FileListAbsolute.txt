@@ -1,0 +1,16 @@
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\bin\Debug\net8.0\PicStory.SERVICE.deps.json
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\bin\Debug\net8.0\PicStory.SERVICE.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\bin\Debug\net8.0\PicStory.SERVICE.pdb
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\bin\Debug\net8.0\PicStory.CORE.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\bin\Debug\net8.0\PicStory.CORE.pdb
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.AssemblyInfo.cs
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.sourcelink.json
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.8C8F021A.Up2Date
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\refint\PicStory.SERVICE.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\PicStory.SERVICE.pdb
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Service\obj\Debug\net8.0\ref\PicStory.SERVICE.dll

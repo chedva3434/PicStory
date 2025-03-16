@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-Api.csproj": {}
+    "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-Api.csproj": {
+    "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-Api.csproj",
-        "projectName": "PicStory-Api",
-        "projectPath": "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-Api.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-API.csproj",
+        "projectName": "PicStory-API",
+        "projectPath": "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\PicStory-API.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user1\\Documents\\חדוה תכנות\\שנה ב\\PicStory\\PicStory-Api\\PicStory-Api\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PicStory.SERVICE/1.0.0": {
+        "dependencies": {
+          "PicStory.CORE": "1.0.0"
+        },
+        "runtime": {
+          "PicStory.SERVICE.dll": {}
+        }
+      },
+      "PicStory.CORE/1.0.0": {
+        "runtime": {
+          "PicStory.CORE.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PicStory.SERVICE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PicStory.CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
