@@ -1,4 +1,5 @@
-﻿using PicStory.CORE.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using PicStory.CORE.Models;
 using PicStory.CORE.Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,19 @@ namespace PicStory.DATA.Repositories
 {
     public class AlbumRepository :Repository<Album>, IAlbumRepository
     {
-        public AlbumRepository(DataContext context) : base(context)
+        private readonly DataContext _context;
+
+        public AlbumRepository(DataContext context):base(context)
         {
+            _context = context;
         }
 
-        
+        public IEnumerable<Album> GetAllWithRelations()
+        {
+            return _context.Albums
+                .Include(a => a.Photos) // טוען את התמונות
+                .Include(a => a.SharedAlbums) // טוען את השיתופים
+                .ToList();
+        }
     }
 }

@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using PicStory.CORE.DTOs;
+using PicStory.CORE.Models;
+using PicStory.CORE.Services;
+using PicStory_Api.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +13,55 @@ namespace PicStory_Api.Controllers
     [ApiController]
     public class PhotoMetadataController : ControllerBase
     {
-        // GET: api/<PhotoTagController>
+        private readonly IPhotoMetadataServices _photoMetadataServices;
+        private readonly IMapper _mapper;
+
+        public PhotoMetadataController(IPhotoMetadataServices photoMetadataServices, IMapper mapper)
+        {
+            _photoMetadataServices = photoMetadataServices;
+            _mapper = mapper;
+        }
+
+        // GET: api/<AlbumController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            var list = await _photoMetadataServices.GetAllAsync();
+            var listDto = _mapper.Map<IEnumerable<PhotoMetadataDTO>>(list);
+            return Ok(listDto);
         }
 
-        // GET api/<PhotoTagController>/5
+        // GET api/<AlbumController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            return "value";
+            var photoMetadata = await _photoMetadataServices.GetByIdAsync(id);
+            var photoDto = _mapper.Map<PhotoDTO>(photoMetadata);
+            return Ok(photoDto);
         }
 
-        // POST api/<PhotoTagController>
+        // POST api/<AlbumController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] PhotoMetadataPostModel photoMetadata)
         {
+            var photoMetadataToAdd = _mapper.Map<PhotoMetadata>(photoMetadata);
+            await _photoMetadataServices.AddValueAsync(photoMetadataToAdd);
         }
 
-        // PUT api/<PhotoTagController>/5
+        // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put(int id, [FromBody] PhotoMetadata photo)
         {
+            var dto = _mapper.Map<PhotoMetadata>(photo);
+            await _photoMetadataServices.PutValueAsync(dto);
         }
 
-        // DELETE api/<PhotoTagController>/5
+        // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(PhotoMetadata photo)
         {
+            var dto = _mapper.Map<PhotoMetadata>(photo);
+            await _photoMetadataServices.DeleteAsync(dto);
         }
     }
 }

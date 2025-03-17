@@ -1,7 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using PicStory.CORE.DTOs;
 using PicStory.CORE.Models;
 using PicStory.CORE.Services;
 using PicStory.SERVICE;
+using PicStory_Api.Models;
+using System.Collections.Generic;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,42 +17,54 @@ namespace PicStory_Api.Controllers
     public class AlbumController : ControllerBase
     {
         private readonly IAlbumService _albumService;
+        private readonly IMapper _mapper;
 
-        public AlbumController(IAlbumService albumService)
+        public AlbumController(IAlbumService albumService, IMapper mapper)
         {
             _albumService = albumService;
+            _mapper = mapper;
         }
 
         // GET: api/<AlbumController>
         [HttpGet]
-        public IEnumerable<Album> Get()
+        public async Task<ActionResult> Get()
         {
-            return _albumService.GetAll();
+            var list =await _albumService.GetAllAsync();
+            var listDto = _mapper.Map<IEnumerable<AlbumDTO>>(list);
+            return Ok(listDto);
         }
 
         // GET api/<AlbumController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            return "value";
+            var album =await _albumService.GetByIdAsync(id);
+            var albumDto = _mapper.Map<AlbumDTO>(album); 
+            return Ok(albumDto);
         }
 
         // POST api/<AlbumController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] AlbumPostModel album)
         {
+            var albumToAdd=_mapper.Map<Album>(album);
+            await _albumService.AddValueAsync(albumToAdd);    
         }
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put(int id, [FromBody] Album album)
         {
+            var dto = _mapper.Map<Album>(album);
+            await _albumService.PutValueAsync(dto);
         }
 
         // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(Album album)
         {
+            var dto = _mapper.Map<Album>(album);
+            await _albumService.DeleteAsync(dto);
         }
     }
 

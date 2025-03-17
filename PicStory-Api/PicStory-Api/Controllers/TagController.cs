@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using PicStory.CORE.DTOs;
+using PicStory.CORE.Models;
+using PicStory.CORE.Services;
+using PicStory_Api.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +13,55 @@ namespace PicStory_Api.Controllers
     [ApiController]
     public class TagController : ControllerBase
     {
-        // GET: api/<TagController>
+        private readonly ITagServices _tagServices;
+        private readonly IMapper _mapper;
+
+        public TagController(ITagServices tagServices, IMapper mapper)
+        {
+            _tagServices = tagServices;
+            _mapper = mapper;
+        }
+
+        // GET: api/<AlbumController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            var list = await _tagServices.GetAllAsync();
+            var listDto = _mapper.Map<IEnumerable<TagDTO>>(list);
+            return Ok(listDto);
         }
 
-        // GET api/<TagController>/5
+        // GET api/<AlbumController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            return "value";
+            var tag = await _tagServices.GetByIdAsync(id);
+            var tagDto = _mapper.Map<TagDTO>(tag);
+            return Ok(tagDto);
         }
 
-        // POST api/<TagController>
+        // POST api/<AlbumController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] TagPostModel tag)
         {
+            var tagToAdd = _mapper.Map<Tag>(tag);
+            await _tagServices.AddValueAsync(tagToAdd);
         }
 
-        // PUT api/<TagController>/5
+        // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put(int id, [FromBody] Tag tag)
         {
+            var dto = _mapper.Map<Tag>(tag);
+            await _tagServices.PutValueAsync(dto);
         }
 
-        // DELETE api/<TagController>/5
+        // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(Tag tag)
         {
+            var dto = _mapper.Map<Tag>(tag);
+            await _tagServices.DeleteAsync(dto);
         }
     }
 }

@@ -1,6 +1,7 @@
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\bin\Debug\net8.0\PicStory.CORE.deps.json
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\bin\Debug\net8.0\PicStory.CORE.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\bin\Debug\net8.0\PicStory.CORE.pdb
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\obj\Debug\net8.0\PicStory.CORE.csproj.AssemblyReference.cache
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\obj\Debug\net8.0\PicStory.CORE.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\obj\Debug\net8.0\PicStory.CORE.AssemblyInfoInputs.cache
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory.Core\obj\Debug\net8.0\PicStory.CORE.AssemblyInfo.cs

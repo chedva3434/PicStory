@@ -1,6 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PicStory.CORE.DTOs;
 using PicStory.CORE.Models;
+using PicStory.CORE.Services;
+using PicStory_Api.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,50 +14,55 @@ namespace PicStory_Api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private static List<User> users = new List<User>();
-        [HttpGet]
-        public IEnumerable<User> Get()
+        private readonly IUserServices _userServices;
+        private readonly IMapper _mapper;
+
+        public UserController(IUserServices userServices, IMapper mapper)
         {
-            return users;
+            _userServices = userServices;
+            _mapper = mapper;
         }
 
-        // GET api/<UserController>/5
-        [HttpGet("{id}")]
-        public ActionResult Get(int id)
+        // GET: api/<AlbumController>
+        [HttpGet]
+        public async Task<ActionResult> Get()
         {
-            var user = users.Find(u=>u.Id==id);
-            if (user == null) 
-            {
-                return NotFound();
-            }
+            var list = await _userServices.GetAllAsync();
+            var listDto = _mapper.Map<IEnumerable<User>>(list);
+            return Ok(listDto);
+        }
+
+        // GET api/<AlbumController>/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult> Get(int id)
+        {
+            var user = await _userServices.GetByIdAsync(id);
+            var userDto = _mapper.Map<UserDTO>(user);
             return Ok(user);
         }
 
-        // POST api/<UserController>
+        // POST api/<AlbumController>
         [HttpPost]
-        public void Post([FromBody] User newUser)
+        public async Task Post([FromBody] UserPostModel user)
         {
-            users.Add(new User { Id = newUser.Id,Name=newUser.Name,Email=newUser.Email,PasswordHash=newUser.PasswordHash});
-
+            var userToAdd = _mapper.Map<User>(user);
+            await _userServices.AddValueAsync(userToAdd);
         }
 
-        // PUT api/<UserController>/5
+        // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put(int id, [FromBody] User user)
         {
-
+            var dto = _mapper.Map<User>(user);
+            await _userServices.PutValueAsync(dto);
         }
 
-        // DELETE api/<UserController>/5
+        // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(User user)
         {
-            var user = users.Find(u => u.Id == id);
-            if (user == null)
-            {
-                 NotFound();
-            }
-            users.Remove(user);
+            var dto = _mapper.Map<User>(user);
+            await _userServices.DeleteAsync(dto);
         }
     }
 }

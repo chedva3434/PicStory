@@ -7,100 +7,136 @@
       "RelativeMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|solutionrelative:picstory.service\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250317141553_FixRelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PicStroy.Data\\Migrations\\20250317141553_FixRelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\ialbumservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\ialbumservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\isharedalbumservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\isharedalbumservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\iphotometadataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\iphotometadataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\itagservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\itagservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\iphotoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\iphotoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|solutionrelative:picstory.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\isharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\isharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\iphotometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\iphotometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\sharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\sharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\photometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\photometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\migrations\\20250316201237_onetomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\migrations\\20250316201237_onetomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250317141052_Fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PicStroy.Data\\Migrations\\20250317141052_Fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\iphotometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\iphotometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\dtos\\albumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\dtos\\albumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\sharedalbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\sharedalbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\photometadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\photometadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\photometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\photometadatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.service\\photometadataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|solutionrelative:picstory.service\\photometadataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\dtos\\photometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\dtos\\photometadatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|solutionrelative:picstory.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\sharedalbumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\sharedalbumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\photometadatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\photometadatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,52 +151,80 @@
       "RelativeMoniker": "D:0:0:{26672895-435E-48DA-A512-74C031E252A5}|PicStory.Service\\PicStory.SERVICE.csproj|solutionrelative:picstory.service\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\iphotoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\iphotoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\iphotometadataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\iphotometadataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\irepositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\irepositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\dtos\\sharedalbumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\dtos\\sharedalbumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\isharedalbumservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\isharedalbumservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\services\\itagservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\services\\itagservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\isharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\isharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstroy.data\\repositories\\sharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE63ADA-15F4-4457-A612-C0AECA6207E0}|PicStroy.Data\\PicStory.DATA.csproj|solutionrelative:picstroy.data\\repositories\\sharedalbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\photometadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\photometadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\sharedalbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\sharedalbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\sharedalbumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\sharedalbumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\phototagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\phototagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory-api\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D286DF98-526D-4832-85D9-8B92A8575315}|PicStory-Api\\PicStory.csproj|solutionrelative:picstory-api\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|c:\\users\\user1\\documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\picstory\\picstory-api\\picstory.core\\picstory.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2B8CA5E1-10FB-4624-9751-15B1243FADCE}|PicStory.Core\\PicStory.CORE.csproj|solutionrelative:picstory.core\\picstory.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PicStory.Core\\Services\\IAlbumServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoTagController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PicStory-Api\\Controllers\\PhotoTagController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,21 +234,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAlbumService.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumService.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IAlbumService.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumService.cs*",
-              "RelativeToolTip": "PicStory.Core\\Services\\IAlbumService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T20:39:34.715Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -195,87 +246,29 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250317141553_FixRelationships.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250317141553_FixRelationships.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Migrations\\20250317141553_FixRelationships.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250317141553_FixRelationships.cs",
+              "RelativeToolTip": "PicStroy.Data\\Migrations\\20250317141553_FixRelationships.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:15:53.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ISharedAlbumServices.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ISharedAlbumServices.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\ISharedAlbumServices.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ISharedAlbumServices.cs",
-              "RelativeToolTip": "PicStory.Core\\Services\\ISharedAlbumServices.cs",
+              "Title": "20250317141052_Fix.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250317141052_Fix.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Migrations\\20250317141052_Fix.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250317141052_Fix.cs",
+              "RelativeToolTip": "PicStroy.Data\\Migrations\\20250317141052_Fix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:28:55.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPhotoMetadataServices.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoMetadataServices.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IPhotoMetadataServices.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoMetadataServices.cs",
-              "RelativeToolTip": "PicStory.Core\\Services\\IPhotoMetadataServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:28:34.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITagServices.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ITagServices.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\ITagServices.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ITagServices.cs",
-              "RelativeToolTip": "PicStory.Core\\Services\\ITagServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:28:01.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPhotoServices.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoServices.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IPhotoServices.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoServices.cs",
-              "RelativeToolTip": "PicStory.Core\\Services\\IPhotoServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:27:35.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAlbumServices.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumServices.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IAlbumServices.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumServices.cs",
-              "RelativeToolTip": "PicStory.Core\\Services\\IAlbumServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:27:19.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IUserServices.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IUserServices.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IUserServices.cs",
-              "RelativeToolTip": "PicStory.Core\\Services\\IUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:26:59.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Program.cs",
-              "RelativeDocumentMoniker": "PicStory-Api\\Program.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Program.cs",
-              "RelativeToolTip": "PicStory-Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:18:42.765Z"
+              "WhenOpened": "2025-03-17T14:10:53.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -283,66 +276,120 @@
               "Title": "AlbumService.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\AlbumService.cs",
               "RelativeDocumentMoniker": "PicStory.Service\\AlbumService.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\AlbumService.cs*",
-              "RelativeToolTip": "PicStory.Service\\AlbumService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\AlbumService.cs",
+              "RelativeToolTip": "PicStory.Service\\AlbumService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T23:48:09.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "PicStory.Core\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:56:38.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\PhotoRepository.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\PhotoRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\PhotoRepository.cs",
+              "RelativeToolTip": "PicStroy.Data\\Repositories\\PhotoRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:56:02.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20250316201237_OneToMany.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250316201237_OneToMany.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Migrations\\20250316201237_OneToMany.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Migrations\\20250316201237_OneToMany.cs",
+              "RelativeToolTip": "PicStroy.Data\\Migrations\\20250316201237_OneToMany.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T20:12:38.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\Repository.cs",
+              "RelativeToolTip": "PicStroy.Data\\Repositories\\Repository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:11:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IRepositoryManager.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IRepositoryManager.cs",
+              "RelativeToolTip": "PicStory.Core\\Repositories\\IRepositoryManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:49:38.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AlbumController.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\AlbumController.cs",
               "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\AlbumController.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\AlbumController.cs",
               "RelativeToolTip": "PicStory-Api\\Controllers\\AlbumController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:08:27.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Album.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Album.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Models\\Album.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Album.cs",
-              "RelativeToolTip": "PicStory.Core\\Models\\Album.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\DataContext.cs",
+              "RelativeToolTip": "PicStroy.Data\\DataContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T19:03:58.783Z",
+              "WhenOpened": "2025-03-12T21:43:49.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ITagRepository.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\ITagRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ITagRepository.cs",
-              "RelativeToolTip": "PicStory.Core\\Repositories\\ITagRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\RepositoryManager.cs",
+              "RelativeToolTip": "PicStroy.Data\\Repositories\\RepositoryManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:05:12.53Z"
+              "WhenOpened": "2025-03-16T19:47:30.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ISharedAlbumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
-              "RelativeToolTip": "PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:04:45.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "IPhotoMetadataRepository.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IPhotoMetadataRepository.cs",
               "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IPhotoMetadataRepository.cs",
@@ -350,91 +397,125 @@
               "RelativeToolTip": "PicStory.Core\\Repositories\\IPhotoMetadataRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:04:07.706Z"
+              "WhenOpened": "2025-03-13T00:04:07.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "IAlbumRepository.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IAlbumRepository.cs",
               "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IAlbumRepository.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IAlbumRepository.cs",
               "RelativeToolTip": "PicStory.Core\\Repositories\\IAlbumRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:02:37.247Z"
+              "WhenOpened": "2025-03-13T00:02:37.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "AlbumDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\AlbumDTO.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\DTOs\\AlbumDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\AlbumDTO.cs",
+              "RelativeToolTip": "PicStory.Core\\DTOs\\AlbumDTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T10:58:12.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SharedAlbum.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\SharedAlbum.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Models\\SharedAlbum.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\SharedAlbum.cs",
+              "RelativeToolTip": "PicStory.Core\\Models\\SharedAlbum.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:02:00.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PhotoMetadata.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\PhotoMetadata.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Models\\PhotoMetadata.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\PhotoMetadata.cs",
+              "RelativeToolTip": "PicStory.Core\\Models\\PhotoMetadata.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:35:15.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Models\\Photo.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Photo.cs",
+              "RelativeToolTip": "PicStory.Core\\Models\\Photo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:02:38.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Album.cs",
+              "RelativeToolTip": "PicStory.Core\\Models\\Album.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:03:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Tag.cs",
+              "RelativeToolTip": "PicStory.Core\\Models\\Tag.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:00:58.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\User.cs",
+              "RelativeToolTip": "PicStory.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:00:58.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AlbumRepository.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\AlbumRepository.cs",
               "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\AlbumRepository.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\AlbumRepository.cs",
               "RelativeToolTip": "PicStroy.Data\\Repositories\\AlbumRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:55:43.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\UserService.cs",
-              "RelativeDocumentMoniker": "PicStory.Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\UserService.cs",
-              "RelativeToolTip": "PicStory.Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:47:39.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "PicStroy.Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\DataContext.cs",
-              "RelativeToolTip": "PicStroy.Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:43:49.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IPhotoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IPhotoRepository.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IPhotoRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IPhotoRepository.cs",
-              "RelativeToolTip": "PicStory.Core\\Repositories\\IPhotoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:03:32.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TagRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\TagRepository.cs",
-              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\TagRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\TagRepository.cs",
-              "RelativeToolTip": "PicStroy.Data\\Repositories\\TagRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:57:10.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SharedAlbumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
-              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
-              "RelativeToolTip": "PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:56:40.721Z"
+              "WhenOpened": "2025-03-12T23:55:43.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -444,97 +525,415 @@
               "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\PhotoMetadataRepository.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\PhotoMetadataRepository.cs",
               "RelativeToolTip": "PicStroy.Data\\Repositories\\PhotoMetadataRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:56:21.827Z"
+              "WhenOpened": "2025-03-12T23:56:21.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "PhotoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\PhotoRepository.cs",
-              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\PhotoRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\PhotoRepository.cs",
-              "RelativeToolTip": "PicStroy.Data\\Repositories\\PhotoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:56:02.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "PicStroy.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:55:21.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TagService.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\TagService.cs",
-              "RelativeDocumentMoniker": "PicStory.Service\\TagService.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\TagService.cs",
-              "RelativeToolTip": "PicStory.Service\\TagService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:49:59.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "PhotoMetadataService.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\PhotoMetadataService.cs",
               "RelativeDocumentMoniker": "PicStory.Service\\PhotoMetadataService.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\PhotoMetadataService.cs",
               "RelativeToolTip": "PicStory.Service\\PhotoMetadataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwCkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:49:13.004Z"
+              "WhenOpened": "2025-03-12T23:49:13.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Program.cs",
+              "RelativeDocumentMoniker": "PicStory-Api\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Program.cs",
+              "RelativeToolTip": "PicStory-Api\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:18:42.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\MappingProfile.cs",
+              "RelativeToolTip": "PicStory.Core\\MappingProfile.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:23:35.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PhotoMetadataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\PhotoMetadataDTO.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\DTOs\\PhotoMetadataDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\PhotoMetadataDTO.cs",
+              "RelativeToolTip": "PicStory.Core\\DTOs\\PhotoMetadataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T10:59:17.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "PhotoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\PhotoDTO.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\DTOs\\PhotoDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\PhotoDTO.cs",
+              "RelativeToolTip": "PicStory.Core\\DTOs\\PhotoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:02:02.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IUserServices.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IUserServices.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:26:59.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PicStory-Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:07:51.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "PicStory.Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\UserService.cs",
+              "RelativeToolTip": "PicStory.Service\\UserService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:47:39.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SharedAlbumController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\SharedAlbumController.cs",
+              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\SharedAlbumController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\SharedAlbumController.cs",
+              "RelativeToolTip": "PicStory-Api\\Controllers\\SharedAlbumController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAnwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:10:22.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "PicStory-Api\\Controllers\\PhotoController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:08:54.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PhotoMetadataController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoMetadataController.cs",
+              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\PhotoMetadataController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoMetadataController.cs",
+              "RelativeToolTip": "PicStory-Api\\Controllers\\PhotoMetadataController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwD8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:13:34.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\TagController.cs",
+              "RelativeToolTip": "PicStory-Api\\Controllers\\TagController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAnwC8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:09:22.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\TagService.cs",
+              "RelativeDocumentMoniker": "PicStory.Service\\TagService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\TagService.cs",
+              "RelativeToolTip": "PicStory.Service\\TagService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:49:59.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "SharedAlbumService.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\SharedAlbumService.cs",
               "RelativeDocumentMoniker": "PicStory.Service\\SharedAlbumService.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\SharedAlbumService.cs",
               "RelativeToolTip": "PicStory.Service\\SharedAlbumService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAnwCkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:49:37.808Z"
+              "WhenOpened": "2025-03-12T23:49:37.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "PhotoService.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\PhotoService.cs",
               "RelativeDocumentMoniker": "PicStory.Service\\PhotoService.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Service\\PhotoService.cs",
               "RelativeToolTip": "PicStory.Service\\PhotoService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAnwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:48:33.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "PicStroy.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:55:21.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IAlbumService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumService.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IAlbumService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumService.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\IAlbumService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T20:39:34.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IPhotoServices.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoServices.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IPhotoServices.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoServices.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\IPhotoServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:48:33.456Z"
+              "WhenOpened": "2025-03-13T00:27:35.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PhotoMetadata.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\PhotoMetadata.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Models\\PhotoMetadata.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\PhotoMetadata.cs",
-              "RelativeToolTip": "PicStory.Core\\Models\\PhotoMetadata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "IPhotoMetadataServices.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoMetadataServices.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IPhotoMetadataServices.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IPhotoMetadataServices.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\IPhotoMetadataServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:35:15.054Z"
+              "WhenOpened": "2025-03-13T00:28:34.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
+              "Title": "IRepositoryService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IRepositoryService.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IRepositoryService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IRepositoryService.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\IRepositoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:13:06.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "PicStory.Core\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:03:31.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TagDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\TagDTO.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\DTOs\\TagDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\TagDTO.cs",
+              "RelativeToolTip": "PicStory.Core\\DTOs\\TagDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:03:07.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SharedAlbumDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\SharedAlbumDTO.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\DTOs\\SharedAlbumDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\DTOs\\SharedAlbumDTO.cs",
+              "RelativeToolTip": "PicStory.Core\\DTOs\\SharedAlbumDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:02:43.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IAlbumServices.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumServices.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\IAlbumServices.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\IAlbumServices.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\IAlbumServices.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:27:19.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ITagServices.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ITagServices.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\ITagServices.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ITagServices.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\ITagServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:28:01.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ISharedAlbumServices.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ISharedAlbumServices.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Services\\ISharedAlbumServices.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Services\\ISharedAlbumServices.cs",
+              "RelativeToolTip": "PicStory.Core\\Services\\ISharedAlbumServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:28:55.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ITagRepository.cs",
+              "RelativeToolTip": "PicStory.Core\\Repositories\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:05:12.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ISharedAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
+              "RelativeToolTip": "PicStory.Core\\Repositories\\ISharedAlbumRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:04:45.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IPhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IPhotoRepository.cs",
+              "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IPhotoRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IPhotoRepository.cs",
+              "RelativeToolTip": "PicStory.Core\\Repositories\\IPhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:03:32.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\TagRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "PicStroy.Data\\Repositories\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:57:10.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SharedAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
+              "RelativeDocumentMoniker": "PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
+              "RelativeToolTip": "PicStroy.Data\\Repositories\\SharedAlbumRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:56:40.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "PicStory.Core\\Repositories\\IUserRepository.cs",
@@ -542,119 +941,23 @@
               "RelativeToolTip": "PicStory.Core\\Repositories\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:36:26.574Z"
+              "WhenOpened": "2025-03-12T21:36:26.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PhotoController.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoController.cs",
-              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\PhotoController.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoController.cs",
-              "RelativeToolTip": "PicStory-Api\\Controllers\\PhotoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:08:54.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "PicStory-Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAABBwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:07:51.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SharedAlbum.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\SharedAlbum.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Models\\SharedAlbum.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\SharedAlbum.cs",
-              "RelativeToolTip": "PicStory.Core\\Models\\SharedAlbum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:02:00.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Tag.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Models\\Tag.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Tag.cs",
-              "RelativeToolTip": "PicStory.Core\\Models\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:00:58.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Photo.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Photo.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Models\\Photo.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\Photo.cs",
-              "RelativeToolTip": "PicStory.Core\\Models\\Photo.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAABBwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T19:02:38.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\User.cs",
-              "RelativeDocumentMoniker": "PicStory.Core\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\Models\\User.cs",
-              "RelativeToolTip": "PicStory.Core\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T19:00:58.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "TagController.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\TagController.cs",
-              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\TagController.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\TagController.cs",
-              "RelativeToolTip": "PicStory-Api\\Controllers\\TagController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:09:22.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 55,
               "Title": "PhotoTagController.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoTagController.cs",
               "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\PhotoTagController.cs",
               "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\PhotoTagController.cs",
               "RelativeToolTip": "PicStory-Api\\Controllers\\PhotoTagController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:09:48.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "SharedAlbumController.cs",
-              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\SharedAlbumController.cs",
-              "RelativeDocumentMoniker": "PicStory-Api\\Controllers\\SharedAlbumController.cs",
-              "ToolTip": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory-Api\\Controllers\\SharedAlbumController.cs",
-              "RelativeToolTip": "PicStory-Api\\Controllers\\SharedAlbumController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:10:22.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "PicStory.CORE.csproj",
               "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05D7\u05D3\u05D5\u05D4 \u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\PicStory\\PicStory-Api\\PicStory.Core\\PicStory.CORE.csproj",
               "RelativeDocumentMoniker": "PicStory.Core\\PicStory.CORE.csproj",
@@ -662,7 +965,8 @@
               "RelativeToolTip": "PicStory.Core\\PicStory.CORE.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T18:50:55.634Z"
+              "WhenOpened": "2025-03-11T18:50:55.634Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -6,6 +6,8 @@ C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\Pic
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\PicStory.runtimeconfig.json
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\PicStory.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\PicStory.pdb
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -112,10 +114,10 @@ C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\Pic
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PicStory.props
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PicStory.props
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.csproj.Up2Date
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\refint\PicStory.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.pdb
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.genruntimeconfig.cache
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\ref\PicStory.dll
-C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

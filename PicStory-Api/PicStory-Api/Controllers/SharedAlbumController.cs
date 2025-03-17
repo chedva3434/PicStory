@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using PicStory.CORE.DTOs;
+using PicStory.CORE.Models;
+using PicStory.CORE.Services;
+using PicStory_Api.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +13,55 @@ namespace PicStory_Api.Controllers
     [ApiController]
     public class SharedAlbumController : ControllerBase
     {
-        // GET: api/<SharedAlbumController>
+        private readonly ISharedAlbumServices _sharedAlbumServices;
+        private readonly IMapper _mapper;
+
+        public SharedAlbumController(ISharedAlbumServices sharedAlbumServices, IMapper mapper)
+        {
+            _sharedAlbumServices = sharedAlbumServices;
+            _mapper = mapper;
+        }
+
+        // GET: api/<AlbumController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            var list = await _sharedAlbumServices.GetAllAsync();
+            var listDto = _mapper.Map<IEnumerable<SharedAlbumDTO>>(list);
+            return Ok(listDto);
         }
 
-        // GET api/<SharedAlbumController>/5
+        // GET api/<AlbumController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult> Get(int id)
         {
-            return "value";
+            var sharedAlbum = await _sharedAlbumServices.GetByIdAsync(id);
+            var sharedAlbumDto = _mapper.Map<SharedAlbumDTO>(sharedAlbum);
+            return Ok(sharedAlbumDto);
         }
 
-        // POST api/<SharedAlbumController>
+        // POST api/<AlbumController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] SharedAlbumPostModel sharedAlbum)
         {
+            var sharedAlbumToAdd = _mapper.Map<SharedAlbum>(sharedAlbum);
+            await _sharedAlbumServices.AddValueAsync(sharedAlbumToAdd);
         }
 
-        // PUT api/<SharedAlbumController>/5
+        // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put(int id, [FromBody] SharedAlbum sharedAlbum)
         {
+            var dto = _mapper.Map<SharedAlbum>(sharedAlbum);
+            await _sharedAlbumServices.PutValueAsync(dto);
         }
 
-        // DELETE api/<SharedAlbumController>/5
+        // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(SharedAlbum sharedAlbum)
         {
+            var dto = _mapper.Map<SharedAlbum>(sharedAlbum);
+            await _sharedAlbumServices.DeleteAsync(dto);
         }
     }
 }

@@ -22,5 +22,7 @@ namespace PicStory.CORE.Repositories
         public ISharedAlbumRepository SharedAlbum { get; }
         public ITagRepository Tag { get; }
         public IUserRepository User { get; }
+
+        Task SaveAsync();
     }
 }

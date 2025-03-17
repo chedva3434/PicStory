@@ -11,6 +11,8 @@ namespace PicStory.DATA.Repositories
     public class RepositoryManager:IRepositoryManager
     {
         private readonly DataContext _context;
+        private IAlbumRepository _albumRepository;
+
         public IRepository<Album> Albums { get; }
         public IRepository<PhotoMetadata> PhotoMetadatas { get; }
         public IRepository<Photo> Photos { get; }

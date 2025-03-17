@@ -12,33 +12,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Album"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Album"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Album"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -50,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/AlbumPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/AlbumPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/AlbumPostModel"
               }
             }
           }
@@ -90,24 +64,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -130,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Album"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Album"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Album"
               }
             }
           }
@@ -161,11 +118,29 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Album"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Album"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Album"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -180,33 +155,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -218,17 +167,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoPostModel"
               }
             }
           }
@@ -258,24 +207,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -298,17 +230,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Photo"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Photo"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Photo"
               }
             }
           }
@@ -329,11 +261,29 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Photo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Photo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Photo"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -348,33 +298,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -386,17 +310,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoMetadataPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoMetadataPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoMetadataPostModel"
               }
             }
           }
@@ -426,24 +350,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -466,17 +373,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoMetadata"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoMetadata"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/PhotoMetadata"
               }
             }
           }
@@ -497,11 +404,29 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhotoMetadata"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhotoMetadata"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PhotoMetadata"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -516,33 +441,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -554,17 +453,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedAlbumPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedAlbumPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedAlbumPostModel"
               }
             }
           }
@@ -594,24 +493,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -634,17 +516,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedAlbum"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedAlbum"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/SharedAlbum"
               }
             }
           }
@@ -665,11 +547,29 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SharedAlbum"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SharedAlbum"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SharedAlbum"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -684,33 +584,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -722,17 +596,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/TagPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/TagPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/TagPostModel"
               }
             }
           }
@@ -762,24 +636,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -802,17 +659,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Tag"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Tag"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/Tag"
               }
             }
           }
@@ -833,11 +690,29 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tag"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tag"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Tag"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -852,33 +727,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/User"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/User"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/User"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -890,17 +739,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserPostModel"
               }
             }
           }
@@ -953,17 +802,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/User"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/User"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "$ref": "#/components/schemas/User"
               }
             }
           }
@@ -984,11 +833,29 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -1038,6 +905,34 @@
               "$ref": "#/components/schemas/SharedAlbum"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AlbumPostModel": {
+        "required": [
+          "createdAt",
+          "description",
+          "name",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -1125,6 +1020,62 @@
         },
         "additionalProperties": false
       },
+      "PhotoMetadataPostModel": {
+        "type": "object",
+        "properties": {
+          "photoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "metadata": {
+            "type": "string",
+            "nullable": true
+          },
+          "faceRecognitionData": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PhotoPostModel": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "albumId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fileUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "uploadDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "SharedAlbum": {
         "type": "object",
         "properties": {
@@ -1153,6 +1104,24 @@
         },
         "additionalProperties": false
       },
+      "SharedAlbumPostModel": {
+        "type": "object",
+        "properties": {
+          "albumId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "permissions": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Tag": {
         "type": "object",
         "properties": {
@@ -1169,6 +1138,16 @@
             "items": {
               "$ref": "#/components/schemas/Photo"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TagPostModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -1212,6 +1191,24 @@
             "items": {
               "$ref": "#/components/schemas/SharedAlbum"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserPostModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordHash": {
+            "type": "string",
             "nullable": true
           }
         },
