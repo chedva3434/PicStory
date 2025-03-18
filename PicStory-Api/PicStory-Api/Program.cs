@@ -5,6 +5,7 @@ using PicStory.CORE.Services;
 using PicStory.DATA;
 using PicStory.DATA.Repositories;
 using PicStory.SERVICE;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+});
+
 
 builder.Services.AddScoped<IAlbumService, AlbumService>();
 builder.Services.AddScoped<IPhotoServices, PhotoService>();
@@ -30,8 +37,9 @@ builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(options =>
-    options.UseNpgsql("Host=127.0.0.1;Database=PicStoryDb;Username=postgres;Password=chedva3434"));
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 //builder.Services.AddSingleton<DataContext>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));

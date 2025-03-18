@@ -20,29 +20,32 @@ namespace PicStory.SERVICE
 
         public async Task<IEnumerable<Album>> GetAllAsync()
         {
-            // במקום להשתמש ב- GetAll, עכשיו אתה משתמש ב- GetAllWithIncludes
             var albums = _albumRepository.Albums.GetAllWithIncludes(
-                a => a.User, // קשר עם המשתמש
-                a => a.Photos, // קשר עם התמונות
-                a => a.SharedAlbums // קשר עם האלבומים המשותפים
+                a => a.User, 
+                a => a.Photos, 
+                a => a.SharedAlbums 
             );
 
-            return await Task.FromResult(albums); // מחזיר את התוצאה
+            return await Task.FromResult(albums); 
         }
+
         public async Task<Album> GetByIdAsync(int id)
         {
             return await Task.Run(() => _albumRepository.Albums.GetById(id));
         }
+
         public async Task AddValueAsync(Album advertiser)
         {
             _albumRepository.Albums.Add(advertiser);
             await _albumRepository.SaveAsync();
         }
+
         public async Task PutValueAsync(Album advertiser)
         {
             _albumRepository.Albums.Update(advertiser);
             await _albumRepository.SaveAsync();
         }
+
         public async Task DeleteAsync(Album a)
         {
             _albumRepository.Albums.Delete(a);

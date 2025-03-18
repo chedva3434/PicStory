@@ -121,3 +121,5 @@ C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\Pic
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.pdb
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.genruntimeconfig.cache
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\ref\PicStory.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
