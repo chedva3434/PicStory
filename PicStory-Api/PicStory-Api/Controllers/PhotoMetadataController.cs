@@ -51,10 +51,20 @@ namespace PicStory_Api.Controllers
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public async Task Put(int id, [FromBody] PhotoMetadata photo)
+        public async Task<ActionResult> Put(int id, [FromBody] UpdatePhotoMetadataModel photoMetadataModel)
         {
-            var dto = _mapper.Map<PhotoMetadata>(photo);
-            await _photoMetadataServices.PutValueAsync(dto);
+            var existingPhotoMetadataModel = await _photoMetadataServices.GetByIdAsync(id);
+            if (existingPhotoMetadataModel != null)
+            {
+                existingPhotoMetadataModel.Metadata = photoMetadataModel.Metadata;
+                existingPhotoMetadataModel.FaceRecognitionData = photoMetadataModel.FaceRecognitionData;
+
+                await _photoMetadataServices.PutValueAsync(existingPhotoMetadataModel);  // כאן אנחנו פשוט מעדכנים
+                return Ok(existingPhotoMetadataModel);
+            }
+
+            return NoContent();  // 204 No Content
+
         }
 
         // DELETE api/<AlbumController>/5

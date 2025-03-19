@@ -52,10 +52,20 @@ namespace PicStory_Api.Controllers
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public async Task Put(int id, [FromBody] User user)
+        public async Task<ActionResult> Put(int id, [FromBody] UpdateUserModel userModel)
         {
-            var dto = _mapper.Map<User>(user);
-            await _userServices.PutValueAsync(dto);
+            var existingUserModel = await _userServices.GetByIdAsync(id);
+            if (existingUserModel != null)
+            {
+                existingUserModel.Name = userModel.Name;
+                existingUserModel.Email = userModel.Email;
+
+                await _userServices.PutValueAsync(existingUserModel);  // כאן אנחנו פשוט מעדכנים
+                return Ok(existingUserModel);
+            }
+
+            return NoContent();  // 204 No Content
+
         }
 
         // DELETE api/<AlbumController>/5

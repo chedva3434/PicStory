@@ -20,6 +20,16 @@
         "tags": [
           "Album"
         ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -87,17 +97,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AlbumPostModel"
+                "$ref": "#/components/schemas/UpdateAlbumModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AlbumPostModel"
+                "$ref": "#/components/schemas/UpdateAlbumModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AlbumPostModel"
+                "$ref": "#/components/schemas/UpdateAlbumModel"
               }
             }
           }
@@ -212,17 +222,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Photo"
+                "$ref": "#/components/schemas/UpdatePhotoModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Photo"
+                "$ref": "#/components/schemas/UpdatePhotoModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Photo"
+                "$ref": "#/components/schemas/UpdatePhotoModel"
               }
             }
           }
@@ -337,17 +347,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PhotoMetadata"
+                "$ref": "#/components/schemas/UpdatePhotoMetadataModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PhotoMetadata"
+                "$ref": "#/components/schemas/UpdatePhotoMetadataModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PhotoMetadata"
+                "$ref": "#/components/schemas/UpdatePhotoMetadataModel"
               }
             }
           }
@@ -462,17 +472,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SharedAlbum"
+                "$ref": "#/components/schemas/UpdateSharedAlbumModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SharedAlbum"
+                "$ref": "#/components/schemas/UpdateSharedAlbumModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SharedAlbum"
+                "$ref": "#/components/schemas/UpdateSharedAlbumModel"
               }
             }
           }
@@ -587,17 +597,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Tag"
+                "$ref": "#/components/schemas/UpdateTagModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Tag"
+                "$ref": "#/components/schemas/UpdateTagModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Tag"
+                "$ref": "#/components/schemas/UpdateTagModel"
               }
             }
           }
@@ -712,17 +722,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UpdateUserModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UpdateUserModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UpdateUserModel"
               }
             }
           }
@@ -758,53 +768,6 @@
   },
   "components": {
     "schemas": {
-      "Album": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          },
-          "photos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Photo"
-            },
-            "nullable": true
-          },
-          "sharedAlbums": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SharedAlbum"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "AlbumPostModel": {
         "required": [
           "description",
@@ -824,93 +787,6 @@
           "description": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Photo": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "albumId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "fileUrl": {
-            "type": "string",
-            "nullable": true
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          },
-          "album": {
-            "$ref": "#/components/schemas/Album"
-          },
-          "tags": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Tag"
-            },
-            "nullable": true
-          },
-          "photoMetadata": {
-            "$ref": "#/components/schemas/PhotoMetadata"
-          }
-        },
-        "additionalProperties": false
-      },
-      "PhotoMetadata": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "photoId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "metadata": {
-            "type": "string",
-            "nullable": true
-          },
-          "faceRecognitionData": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "photo": {
-            "$ref": "#/components/schemas/Photo"
           }
         },
         "additionalProperties": false
@@ -959,42 +835,6 @@
         },
         "additionalProperties": false
       },
-      "SharedAlbum": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "albumId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "permissions": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "album": {
-            "$ref": "#/components/schemas/Album"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          }
-        },
-        "additionalProperties": false
-      },
       "SharedAlbumPostModel": {
         "type": "object",
         "properties": {
@@ -1013,35 +853,6 @@
         },
         "additionalProperties": false
       },
-      "Tag": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "photos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Photo"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "TagPostModel": {
         "type": "object",
         "properties": {
@@ -1052,52 +863,81 @@
         },
         "additionalProperties": false
       },
-      "User": {
+      "UpdateAlbumModel": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
+          "name": {
+            "type": "string",
+            "nullable": true
           },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePhotoMetadataModel": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "type": "string",
+            "nullable": true
+          },
+          "faceRecognitionData": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePhotoModel": {
+        "type": "object",
+        "properties": {
+          "fileUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateSharedAlbumModel": {
+        "type": "object",
+        "properties": {
+          "permissions": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTagModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserModel": {
+        "type": "object",
+        "properties": {
           "name": {
             "type": "string",
             "nullable": true
           },
           "email": {
             "type": "string",
-            "nullable": true
-          },
-          "passwordHash": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "images": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Photo"
-            },
-            "nullable": true
-          },
-          "folders": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Album"
-            },
-            "nullable": true
-          },
-          "sharedAlbums": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SharedAlbum"
-            },
             "nullable": true
           }
         },

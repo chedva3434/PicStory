@@ -45,19 +45,38 @@ namespace PicStory_Api.Controllers
 
         // POST api/<AlbumController>
         [HttpPost]
-        public async Task Post([FromBody] AlbumPostModel album)
+        public async Task<ActionResult> Put(int id, [FromBody] AlbumPostModel album)
         {
-            var albumToAdd = _mapper.Map<Album>(album);
-            await _albumService.AddValueAsync(albumToAdd);
+            var existingAlbum = await _albumService.GetByIdAsync(id);
+            if (existingAlbum != null)
+            {
+                existingAlbum.Description = album.Description;
+                existingAlbum.Name = album.Name;
+
+                await _albumService.PutValueAsync(existingAlbum);  // כאן אנחנו פשוט מעדכנים
+                return Ok(existingAlbum);
+            }
+
+            return NoContent();  // 204 No Content
+
         }
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] AlbumPostModel album)
+        public async Task<ActionResult> Put(int id, [FromBody] UpdateAlbumModel album)
         {
-            var dto = _mapper.Map<Album>(album);
-            await _albumService.PutValueAsync(dto);
-            return Ok();
+            var existingAlbum = await _albumService.GetByIdAsync(id);
+            if (existingAlbum != null)
+            {
+                existingAlbum.Description = album.Description;
+                existingAlbum.Name = album.Name;
+
+                await _albumService.PutValueAsync(existingAlbum);  // כאן אנחנו פשוט מעדכנים
+                return Ok(existingAlbum);
+            }
+
+            return NoContent();  // 204 No Content
+
         }
 
         // DELETE api/<AlbumController>/5

@@ -222,6 +222,10 @@ namespace PicStory.DATA.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
@@ -248,7 +252,7 @@ namespace PicStory.DATA.Migrations
             modelBuilder.Entity("PicStory.CORE.Models.Album", b =>
                 {
                     b.HasOne("PicStory.CORE.Models.User", "User")
-                        .WithMany("Folders")
+                        .WithMany("Albums")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -265,7 +269,7 @@ namespace PicStory.DATA.Migrations
                         .IsRequired();
 
                     b.HasOne("PicStory.CORE.Models.User", "User")
-                        .WithMany("Images")
+                        .WithMany("Photos")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -320,9 +324,9 @@ namespace PicStory.DATA.Migrations
 
             modelBuilder.Entity("PicStory.CORE.Models.User", b =>
                 {
-                    b.Navigation("Folders");
+                    b.Navigation("Albums");
 
-                    b.Navigation("Images");
+                    b.Navigation("Photos");
 
                     b.Navigation("SharedAlbums");
                 });

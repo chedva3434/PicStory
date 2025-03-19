@@ -36,13 +36,29 @@ namespace PicStory.DATA.Repositories
 
         public async Task<IEnumerable<T>> GetAll()
         {
-            await _context.Albums.Include(a => a.User).ToListAsync();
-            await _context.Albums.Include(a => a.SharedAlbums).ToListAsync();
-            await _context.Albums.Include(a => a.Photos).ToListAsync();
+            var albums = await _context.Albums
+            .Include(a => a.User) // טוען את המשתמש של האלבום
+            .Include(a => a.SharedAlbums) // טוען את האלבומים המשותפים
+            .Include(a => a.Photos) // טוען את התמונות של האלבום
+            .ToListAsync();
 
-            //await _context.Photos.Include(a => a.User).ToListAsync();
-            //await _context.Photos.Include(a => a.Tags).ToListAsync();
-            //await _context.Photos.Include(a => a.PhotoMetadata).ToListAsync();
+            // await _context.Photos.Include(a => a.User).ToListAsync();
+            // await _context.Photos.Include(a => a.Tags).ToListAsync();
+            // await _context.Photos.Include(a => a.PhotoMetadata).ToListAsync();
+
+            // var users = await _context.Users
+            //.Include(u => u.Albums)  // טוען את האלבומים של המשתמש
+            //.Include(u => u.Photos)  // טוען את התמונות של המשתמש
+            //.Include(u => u.SharedAlbums) // טוען את האלבומים המשותפים
+            //.ToListAsync();
+
+            var photos = await _context.Photos
+            .Include(p => p.User) // מביא את המשתמש שהעלה את התמונה
+            .Include(p => p.Album) // מביא את האלבום שבו התמונה נמצאת
+            .Include(p => p.Tags) // מביא את התגיות של התמונה
+            .Include(p => p.PhotoMetadata) // מביא את המידע הנוסף (EXIF, זיהוי פנים וכו')
+            .ToListAsync();
+
 
             return _dbSet.ToList();
         }

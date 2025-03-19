@@ -16,7 +16,7 @@ namespace PicStory.CORE.DTOs
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        public Photo Photo { get; set; } // הקשר לתמונה
+        //public Photo Photo { get; set; } // הקשר לתמונה
 
     }
 }

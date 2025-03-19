@@ -51,10 +51,18 @@ namespace PicStory_Api.Controllers
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public async Task Put(int id, [FromBody] SharedAlbum sharedAlbum)
+        public async Task<ActionResult> Put(int id, [FromBody] UpdateSharedAlbumModel sharedAlbumModel)
         {
-            var dto = _mapper.Map<SharedAlbum>(sharedAlbum);
-            await _sharedAlbumServices.PutValueAsync(dto);
+            var existingSharedAlbumModel = await _sharedAlbumServices.GetByIdAsync(id);
+            if (existingSharedAlbumModel != null)
+            {
+                existingSharedAlbumModel.Permissions = sharedAlbumModel.Permissions;
+                await _sharedAlbumServices.PutValueAsync(existingSharedAlbumModel);  // כאן אנחנו פשוט מעדכנים
+                return Ok(existingSharedAlbumModel);
+            }
+
+            return NoContent();  // 204 No Content
+
         }
 
         // DELETE api/<AlbumController>/5

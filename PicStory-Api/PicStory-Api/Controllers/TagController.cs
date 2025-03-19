@@ -51,10 +51,19 @@ namespace PicStory_Api.Controllers
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public async Task Put(int id, [FromBody] Tag tag)
+        public async Task<ActionResult> Put(int id, [FromBody] UpdateTagModel tagModel)
         {
-            var dto = _mapper.Map<Tag>(tag);
-            await _tagServices.PutValueAsync(dto);
+            var existingTagModel = await _tagServices.GetByIdAsync(id);
+            if (existingTagModel != null)
+            {
+                existingTagModel.Name = tagModel.Name;
+               
+                await _tagServices.PutValueAsync(existingTagModel);  // כאן אנחנו פשוט מעדכנים
+                return Ok(existingTagModel);
+            }
+
+            return NoContent();  // 204 No Content
+
         }
 
         // DELETE api/<AlbumController>/5

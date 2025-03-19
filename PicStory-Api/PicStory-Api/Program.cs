@@ -46,7 +46,6 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-//builder.Services.AddSingleton<DataContext>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PicStory.CORE.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,8 @@ namespace PicStory.CORE.DTOs
         public string Permissions { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
+        //public AlbumDTO Album { get; set; }
+        //public UserDTO User { get; set; }
     }
 }
