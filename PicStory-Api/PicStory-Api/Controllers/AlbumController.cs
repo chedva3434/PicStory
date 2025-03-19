@@ -29,7 +29,7 @@ namespace PicStory_Api.Controllers
         [HttpGet]
         public async Task<ActionResult> Get()
         {
-            var list =await _albumService.GetAllAsync();
+            var list = await _albumService.GetAllAsync();
             var listDto = _mapper.Map<IEnumerable<AlbumDTO>>(list);
             return Ok(listDto);
         }
@@ -38,8 +38,8 @@ namespace PicStory_Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(int id)
         {
-            var album =await _albumService.GetByIdAsync(id);
-            var albumDto = _mapper.Map<AlbumDTO>(album); 
+            var album = await _albumService.GetByIdAsync(id);
+            var albumDto = _mapper.Map<AlbumDTO>(album);
             return Ok(albumDto);
         }
 
@@ -47,26 +47,33 @@ namespace PicStory_Api.Controllers
         [HttpPost]
         public async Task Post([FromBody] AlbumPostModel album)
         {
-            var albumToAdd=_mapper.Map<Album>(album);
-            await _albumService.AddValueAsync(albumToAdd);    
+            var albumToAdd = _mapper.Map<Album>(album);
+            await _albumService.AddValueAsync(albumToAdd);
         }
 
         // PUT api/<AlbumController>/5
         [HttpPut("{id}")]
-        public async Task Put(int id, [FromBody] Album album)
+        public async Task<ActionResult> Put(int id, [FromBody] AlbumPostModel album)
         {
             var dto = _mapper.Map<Album>(album);
             await _albumService.PutValueAsync(dto);
+            return Ok();
         }
 
         // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public async Task Delete(Album album)
+        public async Task<ActionResult> Delete(int id)
         {
-            var dto = _mapper.Map<Album>(album);
-            await _albumService.DeleteAsync(dto);
+            var album = await _albumService.GetByIdAsync(id);
+            if (album == null)
+            {
+                return NotFound();
+            }
+
+            await _albumService.DeleteAsync(album);
+            return NoContent(); // 204 - הצלחה ללא תוכן
         }
     }
 
-    
+
 }

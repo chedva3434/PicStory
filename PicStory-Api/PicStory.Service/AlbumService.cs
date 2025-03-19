@@ -20,13 +20,7 @@ namespace PicStory.SERVICE
 
         public async Task<IEnumerable<Album>> GetAllAsync()
         {
-            var albums = _albumRepository.Albums.GetAllWithIncludes(
-                a => a.User, 
-                a => a.Photos, 
-                a => a.SharedAlbums 
-            );
-
-            return await Task.FromResult(albums); 
+            return await Task.Run(() => _albumRepository.Albums.GetAll());
         }
 
         public async Task<Album> GetByIdAsync(int id)
@@ -34,15 +28,15 @@ namespace PicStory.SERVICE
             return await Task.Run(() => _albumRepository.Albums.GetById(id));
         }
 
-        public async Task AddValueAsync(Album advertiser)
+        public async Task AddValueAsync(Album album)
         {
-            _albumRepository.Albums.Add(advertiser);
+            _albumRepository.Albums.Add(album);
             await _albumRepository.SaveAsync();
         }
 
-        public async Task PutValueAsync(Album advertiser)
+        public async Task PutValueAsync(Album album)
         {
-            _albumRepository.Albums.Update(advertiser);
+            _albumRepository.Albums.Update(album);
             await _albumRepository.SaveAsync();
         }
 

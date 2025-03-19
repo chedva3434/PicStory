@@ -13,7 +13,8 @@ namespace PicStory.CORE.DTOs
         public int UserId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         public User User { get; set; }
         public List<Photo> Photos { get; set; }

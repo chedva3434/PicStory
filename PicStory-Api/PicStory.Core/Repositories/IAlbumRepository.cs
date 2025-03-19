@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PicStory.CORE.Repositories
 {
-    public interface IAlbumRepository:IRepository<Album>
+    public interface IAlbumRepository
     {
         //List<Album> GetList();
     }

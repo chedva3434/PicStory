@@ -21,12 +21,13 @@ namespace PicStory.CORE
             CreateMap<Tag, TagDTO>().ReverseMap();
             CreateMap<User, UserDTO>().ReverseMap();
 
-            CreateMap<AlbumPostModel, Album>();
-            CreateMap<PhotoPostModel, Photo>();
-            CreateMap<PhotoMetadataPostModel, PhotoMetadata>();
-            CreateMap<SharedAlbumPostModel, SharedAlbum>();
-            CreateMap<TagPostModel, Tag>();
-            CreateMap<UserPostModel, User>();
+            CreateMap<AlbumPostModel, Album>().ReverseMap();
+            CreateMap<PhotoPostModel, Photo>().ReverseMap();
+            CreateMap<PhotoMetadataPostModel, PhotoMetadata>().ReverseMap();
+            CreateMap<SharedAlbumPostModel, SharedAlbum>().ReverseMap();
+            CreateMap<TagPostModel, Tag>().ReverseMap();
+            CreateMap<UserPostModel, User>().ReverseMap();
+
         }
 
     }

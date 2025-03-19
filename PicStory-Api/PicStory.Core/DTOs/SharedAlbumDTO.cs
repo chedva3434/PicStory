@@ -12,5 +12,7 @@ namespace PicStory.CORE.DTOs
         public int AlbumId { get; set; }
         public int UserId { get; set; }
         public string Permissions { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
     }
 }

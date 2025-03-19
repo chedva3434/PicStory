@@ -27,8 +27,10 @@ C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\Pic
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Npgsql.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -121,5 +123,3 @@ C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\Pic
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.pdb
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.genruntimeconfig.cache
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\ref\PicStory.dll
-C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

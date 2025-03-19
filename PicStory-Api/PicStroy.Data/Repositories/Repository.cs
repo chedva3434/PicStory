@@ -19,17 +19,7 @@ namespace PicStory.DATA.Repositories
             _context = context;
             _dbSet = _context.Set<T>();
         }
-        public IEnumerable<T> GetAllWithIncludes(params Expression<Func<T, object>>[] includeProperties)
-        {
-            IQueryable<T> query = _dbSet;
 
-            foreach (var includeProperty in includeProperties)
-            {
-                query = query.Include(includeProperty);
-            }
-
-            return query.ToList();
-        }
 
         public T Add(T entity)
         {
@@ -44,8 +34,16 @@ namespace PicStory.DATA.Repositories
             _context.SaveChanges();
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
+            await _context.Albums.Include(a => a.User).ToListAsync();
+            await _context.Albums.Include(a => a.SharedAlbums).ToListAsync();
+            await _context.Albums.Include(a => a.Photos).ToListAsync();
+
+            //await _context.Photos.Include(a => a.User).ToListAsync();
+            //await _context.Photos.Include(a => a.Tags).ToListAsync();
+            //await _context.Photos.Include(a => a.PhotoMetadata).ToListAsync();
+
             return _dbSet.ToList();
         }
 

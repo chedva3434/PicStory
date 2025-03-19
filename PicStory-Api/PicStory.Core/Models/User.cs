@@ -17,6 +17,8 @@ namespace PicStory.CORE.Models
         public string Email { get; set; }
 
         public string PasswordHash { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         public List<Photo> Images { get; set; } = new List<Photo>();
         public List<Album> Folders { get; set; } = new List<Album>();

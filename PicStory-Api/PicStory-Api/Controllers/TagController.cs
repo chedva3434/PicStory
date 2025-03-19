@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PicStory.CORE.DTOs;
 using PicStory.CORE.Models;
 using PicStory.CORE.Services;
+using PicStory.SERVICE;
 using PicStory_Api.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -58,10 +59,16 @@ namespace PicStory_Api.Controllers
 
         // DELETE api/<AlbumController>/5
         [HttpDelete("{id}")]
-        public async Task Delete(Tag tag)
+        public async Task<ActionResult> Delete(int id)
         {
-            var dto = _mapper.Map<Tag>(tag);
-            await _tagServices.DeleteAsync(dto);
+            var album = await _tagServices.GetByIdAsync(id);
+            if (album == null)
+            {
+                return NotFound();
+            }
+
+            await _tagServices.DeleteAsync(album);
+            return NoContent(); // 204 - הצלחה ללא תוכן
         }
     }
 }

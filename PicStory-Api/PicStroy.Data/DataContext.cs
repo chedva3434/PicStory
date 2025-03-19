@@ -24,35 +24,7 @@ namespace PicStory.DATA
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // קשר בין Album ל-User (אלבום שייך למשתמש)
-            modelBuilder.Entity<Album>()
-                .HasOne(a => a.User)
-                .WithMany(u => u.Folders)
-                .HasForeignKey(a => a.UserId)
-                .OnDelete(DeleteBehavior.Cascade); // מחיקה Cascade
-
-            // קשר בין Photo ל-User (תמונה שייכת למשתמש)
-            modelBuilder.Entity<Photo>()
-                .HasOne(p => p.User)
-                .WithMany(u => u.Images)
-                .HasForeignKey(p => p.UserId);
-
-            // קשר בין Photo ל-Album (תמונה שייכת לאלבום)
-            modelBuilder.Entity<Photo>()
-                .HasOne(p => p.Album)
-                .WithMany(a => a.Photos)
-                .HasForeignKey(p => p.AlbumId);
-
-            // קשר בין SharedAlbum ל-Album ול-User (שיתוף אלבומים)
-            modelBuilder.Entity<SharedAlbum>()
-                .HasOne(sa => sa.Album)
-                .WithMany(a => a.SharedAlbums)
-                .HasForeignKey(sa => sa.AlbumId);
-
-            modelBuilder.Entity<SharedAlbum>()
-                .HasOne(sa => sa.User)
-                .WithMany(u => u.SharedAlbums)
-                .HasForeignKey(sa => sa.UserId);
+            
         }
     }
 }

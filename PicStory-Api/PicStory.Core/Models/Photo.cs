@@ -15,7 +15,8 @@ namespace PicStory.CORE.Models
         public string FileUrl { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public DateTime UploadDate { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         // קשרים
         public User User { get; set; }

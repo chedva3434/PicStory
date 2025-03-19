@@ -9,21 +9,11 @@ using System.Threading.Tasks;
 
 namespace PicStory.DATA.Repositories
 {
-    public class AlbumRepository :Repository<Album>, IAlbumRepository
+    public class AlbumRepository : Repository<Album>, IAlbumRepository
     {
-        private readonly DataContext _context;
-
-        public AlbumRepository(DataContext context):base(context)
+        public AlbumRepository(DataContext context) : base(context)
         {
-            _context = context;
-        }
 
-        public IEnumerable<Album> GetAllWithRelations()
-        {
-            return _context.Albums
-                .Include(a => a.Photos) // טוען את התמונות
-                .Include(a => a.SharedAlbums) // טוען את השיתופים
-                .ToList();
         }
     }
 }

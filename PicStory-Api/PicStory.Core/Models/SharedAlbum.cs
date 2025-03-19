@@ -12,6 +12,8 @@ namespace PicStory.CORE.Models
         public int AlbumId { get; set; }
         public int UserId { get; set; }
         public string Permissions { get; set; }  // לדוגמה: "view", "edit"
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         // קשרים
         public Album Album { get; set; }

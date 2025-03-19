@@ -12,8 +12,8 @@ namespace PicStory.CORE.Models
         public int PhotoId { get; set; } // מזהה התמונה אליה שייך המידע
         public string Metadata { get; set; } // המידע EXIF, יכול להיות JSON או פורמט אחר
         public string FaceRecognitionData { get; set; } // מידע על זיהוי פנים אם יש
-        public DateTime CreatedAt { get; set; } // תאריך יצירת המידע
-        public DateTime UpdatedAt { get; set; } // תאריך עדכון המידע
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
         // קשרים
         public Photo Photo { get; set; } // הקשר לתמונה

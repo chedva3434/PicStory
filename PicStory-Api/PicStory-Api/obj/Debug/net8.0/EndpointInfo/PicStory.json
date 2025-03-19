@@ -87,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Album"
+                "$ref": "#/components/schemas/AlbumPostModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Album"
+                "$ref": "#/components/schemas/AlbumPostModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Album"
+                "$ref": "#/components/schemas/AlbumPostModel"
               }
             }
           }
@@ -118,29 +118,11 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Album"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Album"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Album"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -261,29 +243,11 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Photo"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Photo"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Photo"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -404,29 +368,11 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PhotoMetadata"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PhotoMetadata"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PhotoMetadata"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -547,29 +493,11 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SharedAlbum"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SharedAlbum"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/SharedAlbum"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -690,29 +618,11 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tag"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tag"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Tag"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -833,29 +743,11 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -889,6 +781,10 @@
             "type": "string",
             "format": "date-time"
           },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
           "user": {
             "$ref": "#/components/schemas/User"
           },
@@ -911,7 +807,6 @@
       },
       "AlbumPostModel": {
         "required": [
-          "createdAt",
           "description",
           "name",
           "userId"
@@ -929,10 +824,6 @@
           "description": {
             "type": "string",
             "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -964,7 +855,11 @@
             "type": "string",
             "nullable": true
           },
-          "uploadDate": {
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
             "type": "string",
             "format": "date-time"
           },
@@ -1034,14 +929,6 @@
           "faceRecognitionData": {
             "type": "string",
             "nullable": true
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedAt": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -1068,10 +955,6 @@
           "description": {
             "type": "string",
             "nullable": true
-          },
-          "uploadDate": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -1094,6 +977,14 @@
           "permissions": {
             "type": "string",
             "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
           },
           "album": {
             "$ref": "#/components/schemas/Album"
@@ -1133,6 +1024,14 @@
             "type": "string",
             "nullable": true
           },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
           "photos": {
             "type": "array",
             "items": {
@@ -1171,6 +1070,14 @@
           "passwordHash": {
             "type": "string",
             "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
           },
           "images": {
             "type": "array",

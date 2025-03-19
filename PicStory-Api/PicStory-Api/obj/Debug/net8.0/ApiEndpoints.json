@@ -62,17 +62,11 @@
       },
       {
         "Name": "album",
-        "Type": "PicStory.CORE.Models.Album",
+        "Type": "PicStory_Api.Models.AlbumPostModel",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PicStory_Api.Controllers.AlbumController",
@@ -83,23 +77,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "album",
-        "Type": "PicStory.CORE.Models.Album",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PicStory_Api.Controllers.PhotoController",
@@ -185,23 +168,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "photo",
-        "Type": "PicStory.CORE.Models.Photo",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PicStory_Api.Controllers.PhotoMetadataController",
@@ -287,23 +259,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "photo",
-        "Type": "PicStory.CORE.Models.PhotoMetadata",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PicStory_Api.Controllers.SharedAlbumController",
@@ -389,23 +350,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "sharedAlbum",
-        "Type": "PicStory.CORE.Models.SharedAlbum",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PicStory_Api.Controllers.TagController",
@@ -491,23 +441,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "tag",
-        "Type": "PicStory.CORE.Models.Tag",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PicStory_Api.Controllers.UserController",
@@ -593,22 +532,11 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "PicStory.CORE.Models.User",
-        "IsRequired": true
-      },
-      {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]
