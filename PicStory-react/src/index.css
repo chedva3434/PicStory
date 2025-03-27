@@ -1,0 +1,100 @@
+body {
+    /* background: linear-gradient(135deg, rgb(235, 255, 0), rgb(249, 4, 91)); */
+    background-image: url("/public/img/7.webp");
+    background-size: cover;
+    /* מכסה את כל העמוד */
+    background-position: center;
+    /* ממקם את התמונה במרכז */
+    background-repeat: no-repeat;
+    /* מונע חזרה של התמונה */
+    background-attachment: fixed;
+    /* גורם לתמונה להישאר קבועה בזמן גלילה */
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    padding: 0;
+    margin-top: 0;
+}
+
+/* כותרת עמוד */
+.hero-title {
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    color: #f6d365;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* כרטיסים עם תמונות */
+.card-box {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* כפתור */
+.btn-start {
+    background: linear-gradient(45deg, #f6d365, #fda085);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-start:hover {
+    background: linear-gradient(45deg, #fda085, #f6d365);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* עדכון Testimonials */
+.testimonials-box {
+    width: 300px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-box p {
+    font-style: italic;
+}
+
+.testimonials-box h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}

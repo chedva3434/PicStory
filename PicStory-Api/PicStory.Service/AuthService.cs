@@ -50,7 +50,9 @@ namespace PicStory.SERVICE
     {
         new Claim(ClaimTypes.Name, user.Name),
         new Claim(ClaimTypes.Email, user.Email),
-        new Claim(ClaimTypes.Role, user.Role)
+        new Claim(ClaimTypes.Role, user.Role),
+        new Claim("userId", user.Id.ToString()) // הוספת ה-ID של המשתמש לטוקן
+
     };
 
             // יצירת טוקן JWT
@@ -111,7 +113,8 @@ namespace PicStory.SERVICE
             {
                 new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Role, user.Role)
+                new Claim(ClaimTypes.Role, user.Role),
+                new Claim("userId", user.Id.ToString()) // הוספת ה-ID של המשתמש לטוקן
             };
 
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));

@@ -1,15 +1,17 @@
-import { useState } from 'react'
 import './App.css'
-import Home from './component/home'
+import { UserProvider } from './useContext';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <Home/>
+    <>     
+    <UserProvider>
+      <>     
+        <Outlet /> 
+      </>
+     </UserProvider>
     </>
-  )
+  );
 }
 
 export default App

@@ -11,7 +11,7 @@ const Footer1 = () => {
         bottom: 0,  
         left: 0, 
         width: "100%", 
-        backgroundColor: "#e4ddd8",  
+        backgroundColor:"#ffffff",  
         color: "black", // שינוי צבע הכיתוב לשחור
         padding: "15px 0",  
         textAlign: "center",  

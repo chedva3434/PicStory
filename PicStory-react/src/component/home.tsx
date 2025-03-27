@@ -1,58 +1,147 @@
+import React from "react";
+import { Box, Typography,Grid, Container } from "@mui/material";
 import { motion } from 'framer-motion';
-import React, { useEffect, useState } from 'react';
-import Footer1 from './footer';
-import AuthModal from './header';
 
-function Home() {
-  const [textColor, setTextColor] = useState("text-white");
-
-  useEffect(() => {
-    const colors = ["text-white", "text-yellow-400", "text-blue-400", "text-pink-400"];
-    let index = 0;
-    const interval = setInterval(() => {
-      setTextColor(colors[index]);
-      index = (index + 1) % colors.length;
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
+const HomePage: React.FC = () => {
 
   return (
-    <>
-      {/* <AuthModal/> */}
-      <div 
-        className="relative min-h-screen w-full flex items-center justify-center bg-cover bg-center" 
-        style={{ backgroundImage: "url('img/6.jpg')", backgroundSize: 'cover', backgroundPosition: 'center center', height: '100vh' }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* שכבת כהות */}
-
-        <div className="relative text-center px-6 md:px-12 z-10 flex flex-col items-center justify-center">
-          {/* כותרת עם אנימציה */}
-          <motion.h1 
-            initial={{ opacity: 0, y: 50 }} 
-            animate={{ opacity: 1, y: 0 }} 
-            transition={{ duration: 1, delay: 0.2 }} 
-            className={`text-7xl md:text-8xl font-extrabold mb-6 tracking-tight text-shadow-2xl transition-colors duration-500 ${textColor}`}
-          >
-            PicStory
-          </motion.h1>
-
-          {/* טקסט עם אנימציה */}
-          <motion.p 
-            initial={{ opacity: 0, y: 50 }} 
-            animate={{ opacity: 1, y: 0 }} 
-            transition={{ duration: 1.5, delay: 0.4 }} 
-            className="text-lg md:text-2xl max-w-3xl mx-auto text-gray-300 tracking-wider leading-relaxed"
-          >
-            נהל את התמונות המשפחתיות שלך בקלות, צור מצגות, קולאז'ים ושתף רגעים יקרים.
-          </motion.p>
+    <Container maxWidth="xl" sx={{
+      padding: "50px 0", 
+      marginTop: 13, 
+      marginLeft: 20, 
+      overflowX: "hidden", 
+      borderRadius: "20px", 
+    }}>
       
-        </div>
-      </div>
+      {/* כותרת עמוד */}
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
+        <Box sx={{ textAlign: "center", marginBottom: "40px" }}>
+          <Typography variant="h2" sx={{
+            fontWeight: "bold", 
+            color: "#fff", 
+            textShadow: "2px 2px 8px rgba(0, 0, 0, 0.5)"
+          }}>
+            Welcome to Your Photo World
+          </Typography>
+          <Typography variant="h4" sx={{
+            color: "#f6d365", 
+            marginTop: "20px", 
+            fontWeight: 'bold',
+            textShadow: "1px 1px 6px rgba(0, 0, 0, 0.4)"
+          }}>
+            Organize, share, and create amazing memories in one place😉.
+          </Typography>
+        </Box>
+      </motion.div>
 
-      {/* Footer */}
-      <Footer1 />
-    </>
+      {/* Grid עם תמונות ממבחר אלבומים */}
+      <Grid container spacing={4}>
+        <Grid item xs={12} sm={6} md={4}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
+            <Box
+              sx={{
+                backgroundImage: 'url("/img/album1.jpg")',
+                backgroundSize: 'cover',
+                height: "300px",
+                borderRadius: "15px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+                color: "#fff",
+                boxShadow: "0 6px 18px rgba(0, 0, 0, 0.3)",
+                transition: "transform 0.3s ease-in-out",
+                '&:hover': {
+                  transform: "scale(1.05)", // אפקט של הגדלת התמונה במעבר עכבר
+                  boxShadow: "0 10px 25px rgba(0, 0, 0, 0.4)"
+                }
+              }}
+            >
+              <Typography variant="h5">Family Moments</Typography>
+            </Box>
+          </motion.div>
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
+            <Box
+              sx={{
+                backgroundSize: 'cover',
+                height: "300px",
+                borderRadius: "15px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+                color: "#fff",
+                boxShadow: "0 6px 18px rgba(0, 0, 0, 0.3)",
+                transition: "transform 0.3s ease-in-out",
+                '&:hover': {
+                  transform: "scale(1.05)", 
+                  boxShadow: "0 10px 25px rgba(0, 0, 0, 0.4)"
+                }
+              }}
+            >
+              <Typography variant="h5">Travel Adventures</Typography>
+            </Box>
+          </motion.div>
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
+            <Box
+              sx={{
+                backgroundSize: 'cover',
+                height: "300px",
+                borderRadius: "15px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+                color: "#fff",
+                boxShadow: "0 6px 18px rgba(0, 0, 0, 0.3)",
+                transition: "transform 0.3s ease-in-out",
+                '&:hover': {
+                  transform: "scale(1.05)", 
+                  boxShadow: "0 10px 25px rgba(0, 0, 0, 0.4)"
+                }
+              }}
+            >
+              <Typography variant="h5">Special Events</Typography>
+            </Box>
+          </motion.div>
+        </Grid>
+      </Grid>
+
+      {/* כפתורים אינטראקטיביים */}
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
+        <Box sx={{ textAlign: "center", marginTop: "50px" }}>
+         
+        </Box>
+      </motion.div>
+
+      {/* Testimonials Section */}
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
+        <Box sx={{ textAlign: "center", marginTop: "70px" }}>
+          <Typography variant="h4" sx={{ fontWeight: "bold", color: "#fff" }}>
+            What Our Users Say
+          </Typography>
+          <Box sx={{ marginTop: "30px", display: "flex", justifyContent: "center", gap: 3 }}>
+            <Box sx={{ width: 300, padding: 2, border: "1px solid #ddd", borderRadius: "10px", backgroundColor: "#fff", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
+              <Typography sx={{ fontStyle: "italic" }}>
+                "This app made organizing and sharing my family photos so easy and fun!"
+              </Typography>
+              <Typography sx={{ fontWeight: "bold", marginTop: "10px" }}>John Doe</Typography>
+            </Box>
+            <Box sx={{ width: 300, padding: 2, border: "1px solid #ddd", borderRadius: "10px", backgroundColor: "#fff", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
+              <Typography sx={{ fontStyle: "italic" }}>
+                "The best tool for creating memories and sharing with friends."
+              </Typography>
+              <Typography sx={{ fontWeight: "bold", marginTop: "10px" }}>Jane Smith</Typography>
+            </Box>
+          </Box>
+        </Box>
+      </motion.div>
+    </Container>
   );
-}
+};
 
-export default Home;
+export default HomePage;

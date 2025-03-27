@@ -124,7 +124,6 @@ C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\Pic
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PicStory.props
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PicStory.props
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.csproj.Up2Date
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\PicStory.dll
 C:\Users\user1\Documents\חדוה תכנות\שנה ב\PicStory\PicStory-Api\PicStory-Api\obj\Debug\net8.0\refint\PicStory.dll
