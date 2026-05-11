@@ -113,10 +113,6 @@ namespace PicStory_Api.Controllers
             }
         }
 
-
-        /// <summary>
-        /// פונקציה פשוטה להמרת סיומות לתוכן MIME
-        /// </summary>
         private static string GetContentType(string extension)
         {
             return extension.ToLower() switch
