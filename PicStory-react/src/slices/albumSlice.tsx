@@ -6,7 +6,7 @@ import { AlbumPostModel } from '../models/AlbumPostModel ';
 import { jwtDecode } from 'jwt-decode';
 
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://localhost:7213/api"
 
 const getAuthHeaders = (token: string | null) => {
     return {
