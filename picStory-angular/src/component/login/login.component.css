@@ -9,6 +9,7 @@
 }
 
 .login-card {
+    /* width:auto; */
     width: 360px;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
