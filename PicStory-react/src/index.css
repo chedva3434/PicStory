@@ -1,0 +1,109 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+footer {
+    width: 100%; /* הפוטר יימתח לכל רוחב הדף */
+    position: relative; /* כדי למנוע בעיות מיקום */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* צבע הרקע של הפוטר */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* הצללה לפוטר */
+    padding: 15px 0;
+    text-align: center;
+    margin-top: auto; /* זה יגרום לפוטר להישאר בתחתית אם התוכן לא ממלא את כל הדף */
+  }
+  
+  body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* זה חשוב כדי שהפוטר יתמקם תמיד בתחתית */
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ווידוא שהתוכן תופס לפחות גובה של הדף */
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    padding: 0;
+    margin-top: 0;
+  }
+  
+
+/* כותרת עמוד */
+.hero-title {
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    color: #f6d365;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* כרטיסים עם תמונות */
+.card-box {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* כפתור */
+.btn-start {
+    background: linear-gradient(45deg, #f6d365, #fda085);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-start:hover {
+    background: linear-gradient(45deg, #fda085, #f6d365);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* עדכון Testimonials */
+.testimonials-box {
+    width: 300px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-box p {
+    font-style: italic;
+}
+
+.testimonials-box h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}

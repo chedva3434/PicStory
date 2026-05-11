@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Node / Frontend
+node_modules/
+
+# Environment secrets
+appsettings.Development.json
+secrets.json

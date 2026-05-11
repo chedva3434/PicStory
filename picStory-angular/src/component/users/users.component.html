@@ -1,0 +1,100 @@
+<app-header></app-header>
+
+<div class="layout">
+
+    <div class="content">
+
+        <div class="header">
+
+            <h1>Users Management</h1>
+
+            <button class="add-btn" (click)="openCreate()">
+                + Add User
+            </button>
+
+        </div>
+
+        <div class="table-card">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr *ngFor="let user of users">
+
+                        <td>#{{ user.id }}</td>
+
+                        <td>
+                            <span class="name">{{ user.name }}</span>
+                        </td>
+
+                        <td>{{ user.email }}</td>
+
+                        <td>
+                            <span class="badge" [ngClass]="user.role">
+                                {{ user.role }}
+                            </span>
+                        </td>
+
+                        <td class="actions">
+
+                            <button class="edit" (click)="editUser(user)">
+                                Edit
+                            </button>
+
+                            <button class="delete" (click)="deleteUser(user.id)">
+                                Delete
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-backdrop" *ngIf="selectedUser">
+
+    <div class="modal">
+
+        <h2>
+            {{ isCreateMode ? 'Add User' : 'Edit User' }}
+        </h2>
+
+        <input [(ngModel)]="selectedUser.name" placeholder="Name" />
+        <input [(ngModel)]="selectedUser.email" placeholder="Email" />
+        <input [(ngModel)]="selectedUser.passwordHash" placeholder="Password" />
+        <input [(ngModel)]="selectedUser.role" placeholder="Role" />
+
+        <div class="modal-actions">
+
+            <button class="save" (click)="saveUser()">
+                Save
+            </button>
+
+            <button class="cancel" (click)="closeForm()">
+                Cancel
+            </button>
+
+        </div>
+
+    </div>
+
+</div>

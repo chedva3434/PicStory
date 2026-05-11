@@ -1,0 +1,26 @@
+<app-header></app-header>
+
+<div class="dashboard">
+
+  <!-- Top info -->
+  <div class="top-bar">
+
+    <div class="updated-card">
+      <span>Updated today</span>
+      <strong>{{ today | date:'dd/MM/yyyy' }}</strong>
+    </div>
+
+  </div>
+
+  <!-- Chart -->
+  <div class="chart-container">
+
+    <h2>Monthly Activity</h2>
+
+    <div class="chart-box">
+      <canvas id="statsChart"></canvas>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,135 @@
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using PicStory.CORE.DTOs;
+using PicStory.CORE.Models;
+using PicStory.CORE.Repositories;
+using PicStory.CORE.Services;
+using PicStory_Api.Models;
+using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
+using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using BCrypt.Net;
+
+namespace PicStory.SERVICE
+{
+    public class AuthService : IAuthService
+    {
+        private readonly IAuthRepository _authRepository;
+        private readonly IConfiguration _configuration;
+
+        public AuthService(IAuthRepository authRepository, IConfiguration configuration)
+        {
+            _authRepository = authRepository;
+            _configuration = configuration;
+        }
+
+
+        public async Task<string> AuthenticateUserAsync(string name, string password)
+        {
+            // חיפוש המשתמש על פי שם המשתמש
+            var user = await _authRepository.GetUserByNameAsync(name);
+            if (user == null)
+            {
+                return null; // אם לא נמצא משתמש עם השם הזה
+            }
+
+            // Hashing הסיסמה שהוזנה והשוואתה עם הסיסמה המוחזרת מהמסד נתונים
+            string hashedPassword = HashPassword(password);
+            if (hashedPassword != user.PasswordHash)
+            {
+                return null; // אם הסיסמה לא תואמת, מחזיר null
+            }
+
+            // יצירת Claims עבור ה-JWT Token
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, user.Name),
+        new Claim(ClaimTypes.Email, user.Email),
+        new Claim(ClaimTypes.Role, user.Role),
+        new Claim("userId", user.Id.ToString()) // הוספת ה-ID של המשתמש לטוקן
+
+    };
+
+            // יצירת טוקן JWT
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
+            var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+            var tokenOptions = new JwtSecurityToken(
+                issuer: _configuration["JWT:Issuer"],
+                audience: _configuration["JWT:Audience"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(1),
+                signingCredentials: signinCredentials
+            );
+
+            // מחזיר את הטוקן שנוצר
+            return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+        }
+
+
+        public async Task<string> RegisterUserAsync(UserPostModel registerUserDto)
+        {
+            
+            var userByEmail = await _authRepository.GetUserByEmailAsync(registerUserDto.Email);
+
+            if (userByEmail != null)
+            {
+                // רק אם המייל נמצא, נזרוק שגיאה
+                throw new Exception("Email already in use");
+            }
+
+            // 2. הצפנת הסיסמה
+            string hashedPassword = HashPassword(registerUserDto.PasswordHash);
+
+            // 3. יצירת אובייקט משתמש חדש (השם יכול להיות זהה למשתמש קיים)
+            var newUser = new User
+            {
+                Email = registerUserDto.Email,
+                PasswordHash = hashedPassword,
+                Name = registerUserDto.Name,
+                Role = "User",
+                CreatedAt = DateTime.UtcNow
+            };
+
+            await _authRepository.CreateUserAsync(newUser);
+
+            // 4. יצירת טוקן והחזרתו
+            return GenerateJwtToken(newUser);
+        }
+        private string HashPassword(string password)
+        {
+            using var sha256 = SHA256.Create();
+            var bytes = Encoding.UTF8.GetBytes(password);
+            var hashBytes = sha256.ComputeHash(bytes);
+            return Convert.ToBase64String(hashBytes);
+        }
+
+        private string GenerateJwtToken(User user)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.Name),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role),
+                new Claim("userId", user.Id.ToString()) // הוספת ה-ID של המשתמש לטוקן
+            };
+
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
+            var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+
+            var tokenOptions = new JwtSecurityToken(
+                issuer: _configuration["JWT:Issuer"],
+                audience: _configuration["JWT:Audience"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(1),
+                signingCredentials: signinCredentials
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+        }
+    }
+}

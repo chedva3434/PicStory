@@ -1,0 +1,14 @@
+﻿using PicStory.CORE.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PicStory.CORE.Services
+{
+    public interface IAlbumService: IRepositoryService<Album>
+    {
+        Task<IEnumerable<Album>> GetAlbumsByUserIdAsync(int userId);
+    }
+}
