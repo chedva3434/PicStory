@@ -122,6 +122,7 @@ function Login() {
     try {
       const resultAction = await dispatch(loginUser({ username, password })).unwrap()
       console.log("Login successful")
+      console.log("TOKEN:", resultAction?.token)
 
       if (!resultAction.token || resultAction.token.split(".").length !== 3) {
         console.error("Invalid JWT format:", resultAction.token)
