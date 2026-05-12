@@ -3,9 +3,9 @@ import axios from "axios";
 import { Photo } from "../models/Photo";
 import { PhotoPostModels } from "../models/PotoPostModels";
 
-const API_PHOTOS = "https://localhost:7213/api/Photo";
-const API_UPLOAD = "https://localhost:7213/api/UploadFile/presigned-url";
-const API_VIEW = "https://localhost:7213/api/UploadFile/view-url";
+const API_PHOTOS = `${import.meta.env.VITE_API_URL}/Photo`;
+const API_UPLOAD = `${import.meta.env.VITE_API_URL}/UploadFile/presigned-url`;
+const API_VIEW = `${import.meta.env.VITE_API_URL}/UploadFile/view-url`;
 
 const getAuthHeaders = () => {
     const token = sessionStorage.getItem("authToken");

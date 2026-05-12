@@ -6,7 +6,7 @@ import { AlbumPostModel } from '../models/AlbumPostModel ';
 import { jwtDecode } from 'jwt-decode';
 
 
-const API_URL = "https://localhost:7213/api"
+const API_URL = import.meta.env.VITE_API_URL
 
 const getAuthHeaders = (token: string | null) => {
     return {

@@ -160,12 +160,18 @@ function GifSlideshowPage() {
     if (selected.length === 0) return
     setLoading(true)
     try {
-      const imageUrls = selected.map((id) => photoUrls[id])
-      const response = await fetch("https://localhost:7213/api/UploadFile/collage", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(imageUrls),
-      })
+      const imageUrls = selected.map((id) => photoUrls[id]);
+
+      const response = await fetch(
+        `${import.meta.env.VITE_API_URL}/UploadFile/collage`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(imageUrls),
+        }
+      );
 
       if (!response.ok) throw new Error("שגיאה ביצירת קולאז׳")
       const blob = await response.blob()

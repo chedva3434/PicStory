@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
 import { RootState } from "../component/store";
 
-const API_URL = "https://localhost:7213/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const getAuthHeaders = (token: string | null) => ({
   headers: {
