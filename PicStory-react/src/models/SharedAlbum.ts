@@ -1,4 +1,6 @@
-﻿export type SharedAlbum = {
+﻿import { ReactNode } from "react";
+
+export type SharedAlbum = {
     user: any;
     title: ReactNode;
     ownerName: string;

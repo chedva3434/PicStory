@@ -28,6 +28,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import type { AppDispatch, RootState } from "../component/store"
 import { shareAlbumByEmail } from "../slices/sharedAlbumsSlice"
 
+
 const StyledDialog = styled(Dialog)(() => ({
   "& .MuiDialog-paper": {
     borderRadius: "24px",
