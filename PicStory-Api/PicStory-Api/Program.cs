@@ -84,7 +84,7 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins(
                 "https://picstory1.onrender.com",
-                "https://angular-project-qgpp.onrender.com"
+                "https://picstory.onrender.com"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
