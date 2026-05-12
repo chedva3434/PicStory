@@ -133,11 +133,13 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 using (var scope = app.Services.CreateScope())
 {
@@ -145,7 +147,7 @@ using (var scope = app.Services.CreateScope())
 
     SeedData.Seed(context);
 }
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseCors("MyPolicy");
 
