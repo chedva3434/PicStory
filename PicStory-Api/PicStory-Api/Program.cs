@@ -71,11 +71,11 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
     return new AmazonS3Client(credentials, clientConfig);
 });
 
-builder.Services.AddCors(opt => opt.AddPolicy("MyPolicy", policy =>
-{
-    policy.SetIsOriginAllowed(_ => true)
-.AllowAnyMethod().AllowAnyHeader().AllowCredentials();
-}));
+//builder.Services.AddCors(opt => opt.AddPolicy("MyPolicy", policy =>
+//{
+//    policy.SetIsOriginAllowed(_ => true)
+//.AllowAnyMethod().AllowAnyHeader().AllowCredentials();
+//}));
 
 builder.Services.AddCors(options =>
 {
@@ -149,10 +149,10 @@ using (var scope = app.Services.CreateScope())
 }
 //app.UseHttpsRedirection();
 
-app.UseCors("MyPolicy");
+//app.UseCors("MyPolicy");
+app.UseCors("AllowFrontend");
 
 app.UseAuthentication();
-app.UseCors("AllowFrontend");
 app.UseAuthorization();
 
 app.MapControllers();
