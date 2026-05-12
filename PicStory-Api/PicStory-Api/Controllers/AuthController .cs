@@ -35,7 +35,7 @@ namespace PicStory_Api.Controllers
                 return Unauthorized("Invalid username or password.");
             }
 
-            return Ok(new { token = token });
+            return Ok(new { Token = token });
         }
 
         [HttpPost("register")]
