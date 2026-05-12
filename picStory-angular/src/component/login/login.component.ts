@@ -27,24 +27,30 @@ export class LoginComponent {
 
     this.error = '';
     this.loading = true;
-
+  
     this.authService.login(this.name, this.password)
       .subscribe({
-
+  
         next: (res: any) => {
-
+  
           this.loading = false;
-
-          localStorage.setItem('token', res.token);
-
-          this.router.navigate(['/dashboard']);
+  
+          console.log('LOGIN RESPONSE:', res);
+  
+          if (res && res.token) {
+            localStorage.setItem('token', res.token);
+            this.router.navigate(['/dashboard']);
+          } else {
+            this.error = 'התחברות נכשלה - אין טוקן מהשרת';
+          }
         },
-
-        error: () => {
+  
+        error: (err) => {
           this.loading = false;
+          console.error('LOGIN ERROR:', err);
           this.error = 'שם משתמש או סיסמה שגויים';
         }
-
+  
       });
   }
 }
