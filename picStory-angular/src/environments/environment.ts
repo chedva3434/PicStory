@@ -1,4 +1,4 @@
 export const environment = {
     production: false,
-    apiUrl: 'https://picstory.onrender.com/api'
+    apiUrl: 'https://picstory-server.onrender.com/api'
 };
