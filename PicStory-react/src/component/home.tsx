@@ -40,69 +40,71 @@ const HomePage: React.FC = () => {
       description: "Automatically organize by faces and events",
     },
   ]
-
   const albums = [
     {
       title: "Family Moments",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://placehold.co/400x300/png?text=Family",
       count: "124 photos",
       gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     },
     {
       title: "Travel Adventures",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://placehold.co/400x300/png?text=Travel",
       count: "89 photos",
       gradient: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
     },
     {
       title: "Special Events",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://placehold.co/400x300/png?text=Events",
       count: "67 photos",
       gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
     },
     {
       title: "Nature & Landscapes",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://placehold.co/400x300/png?text=Nature",
       count: "156 photos",
       gradient: "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
     },
     {
       title: "Food & Dining",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://placehold.co/400x300/png?text=Food",
       count: "43 photos",
       gradient: "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
     },
     {
       title: "Pets & Animals",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "https://placehold.co/400x300/png?text=Pets",
       count: "78 photos",
       gradient: "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
     },
-  ]
+  ];
 
   const testimonials = [
     {
       name: "Sarah Johnson",
       role: "Photography Enthusiast",
-      content: "This platform transformed how I organize and share my memories. The AI features are incredible!",
-      avatar: "/placeholder.svg?height=60&width=60",
+      content:
+        "This platform transformed how I organize and share my memories. The AI features are incredible!",
+      avatar: "https://placehold.co/60x60/png?text=S",
       rating: 5,
     },
     {
       name: "Mike Chen",
       role: "Travel Blogger",
-      content: "Perfect for managing thousands of travel photos. The sharing features make collaboration seamless.",
-      avatar: "/placeholder.svg?height=60&width=60",
+      content:
+        "Perfect for managing thousands of travel photos. The sharing features make collaboration seamless.",
+      avatar: "https://placehold.co/60x60/png?text=M",
       rating: 5,
     },
     {
       name: "Emma Davis",
       role: "Family Photographer",
-      content: "Finally, a photo platform that understands families. Love the automatic face grouping!",
-      avatar: "/placeholder.svg?height=60&width=60",
+      content:
+        "Finally, a photo platform that understands families. Love the automatic face grouping!",
+      avatar: "https://placehold.co/60x60/png?text=E",
       rating: 5,
     },
-  ]
+  ];
 
   const stats = [
     { number: "1M+", label: "Photos Stored" },
