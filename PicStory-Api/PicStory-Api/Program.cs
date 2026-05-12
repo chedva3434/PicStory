@@ -71,25 +71,6 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
     return new AmazonS3Client(credentials, clientConfig);
 });
 
-//builder.Services.AddCors(opt => opt.AddPolicy("MyPolicy", policy =>
-//{
-//    policy.SetIsOriginAllowed(_ => true)
-//.AllowAnyMethod().AllowAnyHeader().AllowCredentials();
-//}));
-
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowFrontend",
-//        policy =>
-//        {
-//            policy.WithOrigins(
-//                "https://picstory1.onrender.com",
-//                "https://picstory.onrender.com"
-//            )
-//            .AllowAnyHeader()
-//            .AllowAnyMethod();
-//        });
-//});
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
@@ -144,11 +125,7 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
@@ -158,9 +135,7 @@ using (var scope = app.Services.CreateScope())
 
     SeedData.Seed(context);
 }
-//app.UseHttpsRedirection();
 
-//app.UseCors("MyPolicy");
 app.UseRouting();
 app.UseCors("AllowFrontend");
 
