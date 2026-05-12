@@ -127,11 +127,10 @@ const Header: React.FC = () => {
   }
 
   const handleLogout = () => {
-    dispatch(logout())             // עדכון Redux
-    localStorage.clear()           // ניקוי Storage
-    navigate("/")                  // ניווט לדף הבית
-    // אם הבעיה ממשיכה, שחררי את ההערה מהשורה הבאה במקום navigate:
-    // window.location.href = "/"; 
+    dispatch(logout())             
+    localStorage.clear()          
+    navigate("/")               
+    
   }
 
   const menuItems = [

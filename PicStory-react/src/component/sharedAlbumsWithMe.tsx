@@ -124,22 +124,6 @@ const FilterChip = styled(Chip)(() => ({
   },
 }))
 
-// const PermissionBadge = styled(Chip)(() => ({
-//   position: "absolute",
-//   top: 12,
-//   right: 12,
-//   borderRadius: "12px",
-//   fontWeight: "600",
-//   fontSize: "12px",
-//   "&.view": {
-//     background: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)",
-//     color: "#1976d2",
-//   },
-//   "&.edit": {
-//     background: "linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%)",
-//     color: "#7b1fa2",
-//   },
-// }))
 
 const SharedWithMeAlbums = () => {
   const dispatch = useDispatch<AppDispatch>()
