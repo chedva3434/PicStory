@@ -77,6 +77,20 @@ builder.Services.AddCors(opt => opt.AddPolicy("MyPolicy", policy =>
 .AllowAnyMethod().AllowAnyHeader().AllowCredentials();
 }));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins(
+                "https://picstory1.onrender.com",
+                "https://angular-project-qgpp.onrender.com"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -136,6 +150,7 @@ app.UseHttpsRedirection();
 app.UseCors("MyPolicy");
 
 app.UseAuthentication();
+app.UseCors("AllowFrontend");
 app.UseAuthorization();
 
 app.MapControllers();
