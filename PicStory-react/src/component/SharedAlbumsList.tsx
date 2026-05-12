@@ -152,7 +152,7 @@ function SharedAlbumsList() {
           permissions,
         }),
       ).unwrap()
-
+      console.log(result)
       setSuccessMessage(`האלבום שותף בהצלחה)`)
 
       setTimeout(() => handleClose(), 3000)

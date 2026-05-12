@@ -58,34 +58,34 @@ const StyledCard = styled(Card)(() => ({
   },
 }))
 
-const AlbumOverlay = styled(Box)(() => ({
-  position: "absolute",
-  top: 0,
-  left: 0,
-  right: 0,
-  bottom: 0,
-  background: "linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.9) 100%)",
-  opacity: 0,
-  transition: "opacity 0.3s ease",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  gap: 2,
-}))
+// const AlbumOverlay = styled(Box)(() => ({
+//   position: "absolute",
+//   top: 0,
+//   left: 0,
+//   right: 0,
+//   bottom: 0,
+//   background: "linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.9) 100%)",
+//   opacity: 0,
+//   transition: "opacity 0.3s ease",
+//   display: "flex",
+//   alignItems: "center",
+//   justifyContent: "center",
+//   gap: 2,
+// }))
 
-const ActionButton = styled(IconButton)(() => ({
-  background: "rgba(255, 255, 255, 0.9)",
-  backdropFilter: "blur(10px)",
-  color: "#333",
-  width: "48px",
-  height: "48px",
-  transition: "all 0.3s ease",
-  "&:hover": {
-    background: "#fff",
-    transform: "scale(1.1)",
-    boxShadow: "0 8px 25px rgba(0, 0, 0, 0.2)",
-  },
-}))
+// const ActionButton = styled(IconButton)(() => ({
+//   background: "rgba(255, 255, 255, 0.9)",
+//   backdropFilter: "blur(10px)",
+//   color: "#333",
+//   width: "48px",
+//   height: "48px",
+//   transition: "all 0.3s ease",
+//   "&:hover": {
+//     background: "#fff",
+//     transform: "scale(1.1)",
+//     boxShadow: "0 8px 25px rgba(0, 0, 0, 0.2)",
+//   },
+// }))
 
 const StyledTextField = styled(TextField)(() => ({
   "& .MuiOutlinedInput-root": {
@@ -124,22 +124,22 @@ const FilterChip = styled(Chip)(() => ({
   },
 }))
 
-const PermissionBadge = styled(Chip)(() => ({
-  position: "absolute",
-  top: 12,
-  right: 12,
-  borderRadius: "12px",
-  fontWeight: "600",
-  fontSize: "12px",
-  "&.view": {
-    background: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)",
-    color: "#1976d2",
-  },
-  "&.edit": {
-    background: "linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%)",
-    color: "#7b1fa2",
-  },
-}))
+// const PermissionBadge = styled(Chip)(() => ({
+//   position: "absolute",
+//   top: 12,
+//   right: 12,
+//   borderRadius: "12px",
+//   fontWeight: "600",
+//   fontSize: "12px",
+//   "&.view": {
+//     background: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)",
+//     color: "#1976d2",
+//   },
+//   "&.edit": {
+//     background: "linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%)",
+//     color: "#7b1fa2",
+//   },
+// }))
 
 const SharedWithMeAlbums = () => {
   const dispatch = useDispatch<AppDispatch>()

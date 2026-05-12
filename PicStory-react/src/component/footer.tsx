@@ -459,7 +459,7 @@ const Footer1 = () => {
                     flexWrap: "wrap",
                   }}
                 >
-                  {socialLinks.map((social, index) => (
+                  {socialLinks.map((social) => (
                     <motion.div
                       key={social.label}
                       variants={itemVariants}
