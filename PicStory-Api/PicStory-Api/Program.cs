@@ -77,18 +77,29 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
 //.AllowAnyMethod().AllowAnyHeader().AllowCredentials();
 //}));
 
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowFrontend",
+//        policy =>
+//        {
+//            policy.WithOrigins(
+//                "https://picstory1.onrender.com",
+//                "https://picstory.onrender.com"
+//            )
+//            .AllowAnyHeader()
+//            .AllowAnyMethod();
+//        });
+//});
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend",
-        policy =>
-        {
-            policy.WithOrigins(
-                "https://picstory1.onrender.com",
-                "https://picstory.onrender.com"
-            )
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy
+            .SetIsOriginAllowed(_ => true)
+            .AllowAnyMethod()
             .AllowAnyHeader()
-            .AllowAnyMethod();
-        });
+            .AllowCredentials();
+    });
 });
 
 builder.Services.AddAuthentication(options =>
@@ -150,6 +161,7 @@ using (var scope = app.Services.CreateScope())
 //app.UseHttpsRedirection();
 
 //app.UseCors("MyPolicy");
+app.UseRouting();
 app.UseCors("AllowFrontend");
 
 app.UseAuthentication();
