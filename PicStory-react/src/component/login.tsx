@@ -118,28 +118,52 @@ function Login() {
   }
 
   const handleLogin = async () => {
-    if (!validateForm()) return
+    if (!validateForm()) return;
+  
     try {
-      const resultAction = await dispatch(loginUser({ username, password })).unwrap()
-      console.log("Login successful")
-      console.log("TOKEN:", resultAction?.token)
-
-      if (!resultAction.token || resultAction.token.split(".").length !== 3) {
-        console.error("Invalid JWT format:", resultAction.token)
-        return
+      const resultAction = await dispatch(
+        loginUser({ username, password })
+      ).unwrap();
+  
+      console.log("LOGIN RESPONSE:", resultAction);
+  
+      // 🔥 נרמול token מכל מצב אפשרי
+      const token =
+        typeof resultAction === "string"
+          ? resultAction
+          : resultAction?.token || resultAction?.Token;
+  
+      console.log("TOKEN:", token);
+  
+      // בדיקה בסיסית
+      if (!token) {
+        console.error("Invalid JWT format: missing token", resultAction);
+        return;
       }
-
-      const decodedToken: any = jwtDecode(resultAction.token)
-      const userId = Number.parseInt(decodedToken["userId"], 10)
-      if (!isNaN(userId)) sessionStorage.setItem("userId", userId.toString())
-
-      sessionStorage.setItem("authToken", resultAction.token)
-      dispatch(loginSuccess(resultAction.token))
-      navigate("/album-list")
+  
+      if (token.split(".").length !== 3) {
+        console.error("Invalid JWT format:", token);
+        return;
+      }
+  
+      // decode
+      const decodedToken: any = jwtDecode(token);
+  
+      const userId = Number.parseInt(decodedToken["userId"], 10);
+  
+      if (!isNaN(userId)) {
+        sessionStorage.setItem("userId", userId.toString());
+      }
+  
+      sessionStorage.setItem("authToken", token);
+  
+      dispatch(loginSuccess(token));
+      navigate("/album-list");
+  
     } catch (err: any) {
-      console.error("Login failed:", err)
+      console.error("Login failed:", err);
     }
-  }
+  };
 
   const handleTogglePassword = () => setShowPassword(!showPassword)
 
