@@ -17,6 +17,6 @@ namespace PicStory.CORE.DTOs
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        public List<Album> Albums { get; set; } = new List<Album>();
+        //public List<Album> Albums { get; set; } = new List<Album>();
     }
 }
