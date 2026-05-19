@@ -31,7 +31,7 @@ namespace PicStory_Api.Controllers
         public async Task<ActionResult> Get()
         {
             var list = await _userServices.GetAllAsync();
-            var listDto = _mapper.Map<IEnumerable<User>>(list);
+            var listDto = _mapper.Map<IEnumerable<UserDTO>>(list);
             return Ok(listDto);
         }
 
