@@ -31,31 +31,27 @@ namespace PicStory.SERVICE
 
         public async Task<string> AuthenticateUserAsync(string name, string password)
         {
-            // חיפוש המשתמש על פי שם המשתמש
             var user = await _authRepository.GetUserByNameAsync(name);
             if (user == null)
             {
-                return null; // אם לא נמצא משתמש עם השם הזה
+                return null;
             }
 
-            // Hashing הסיסמה שהוזנה והשוואתה עם הסיסמה המוחזרת מהמסד נתונים
             string hashedPassword = HashPassword(password);
             if (hashedPassword != user.PasswordHash)
             {
-                return null; // אם הסיסמה לא תואמת, מחזיר null
+                return null;
             }
 
-            // יצירת Claims עבור ה-JWT Token
             var claims = new List<Claim>
     {
-        new Claim(ClaimTypes.Name, user.Name),
+         new Claim(ClaimTypes.Name, user.Name),
         new Claim(ClaimTypes.Email, user.Email),
         new Claim(ClaimTypes.Role, user.Role),
-        new Claim("userId", user.Id.ToString()) // הוספת ה-ID של המשתמש לטוקן
+        new Claim("userId", user.Id.ToString()) 
 
     };
 
-            // יצירת טוקן JWT
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
             var tokenOptions = new JwtSecurityToken(
@@ -66,26 +62,23 @@ namespace PicStory.SERVICE
                 signingCredentials: signinCredentials
             );
 
-            // מחזיר את הטוקן שנוצר
             return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
         }
 
 
         public async Task<string> RegisterUserAsync(UserPostModel registerUserDto)
         {
-            
+
             var userByEmail = await _authRepository.GetUserByEmailAsync(registerUserDto.Email);
 
             if (userByEmail != null)
             {
-                // רק אם המייל נמצא, נזרוק שגיאה
+                
                 throw new Exception("Email already in use");
             }
 
-            // 2. הצפנת הסיסמה
             string hashedPassword = HashPassword(registerUserDto.PasswordHash);
 
-            // 3. יצירת אובייקט משתמש חדש (השם יכול להיות זהה למשתמש קיים)
             var newUser = new User
             {
                 Email = registerUserDto.Email,
@@ -97,7 +90,6 @@ namespace PicStory.SERVICE
 
             await _authRepository.CreateUserAsync(newUser);
 
-            // 4. יצירת טוקן והחזרתו
             return GenerateJwtToken(newUser);
         }
         private string HashPassword(string password)
@@ -115,7 +107,7 @@ namespace PicStory.SERVICE
                 new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Role, user.Role),
-                new Claim("userId", user.Id.ToString()) // הוספת ה-ID של המשתמש לטוקן
+                new Claim("userId", user.Id.ToString()) 
             };
 
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
